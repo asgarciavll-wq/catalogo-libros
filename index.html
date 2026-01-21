@@ -4,27 +4,32 @@
 <meta charset="UTF-8">
 <title>Catálogo de Libros</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body {
   margin:0;
   font-family:'Segoe UI', Arial, sans-serif;
   background:#f2f4f8;
 }
+
 header {
   background:#1e293b;
   color:white;
   padding:20px;
 }
+
 .container {
   max-width:1200px;
   margin:auto;
   padding:20px;
 }
+
 .search-box {
   display:flex;
   gap:10px;
   margin-bottom:30px;
 }
+
 .search-box input {
   flex:1;
   padding:14px;
@@ -32,6 +37,7 @@ header {
   border-radius:8px;
   border:1px solid #ccc;
 }
+
 .search-box button {
   padding:14px 20px;
   font-size:16px;
@@ -41,11 +47,13 @@ header {
   color:white;
   cursor:pointer;
 }
+
 .grid {
   display:grid;
   grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
   gap:20px;
 }
+
 .card {
   background:white;
   border-radius:14px;
@@ -53,24 +61,40 @@ header {
   overflow:hidden;
   display:flex;
   flex-direction:column;
+  transition:transform .3s, box-shadow .3s;
 }
+
+.card:hover {
+  transform:translateY(-6px);
+  box-shadow:0 16px 30px rgba(0,0,0,0.15);
+}
+
 .card img {
   height:260px;
   object-fit:cover;
   background:#e5e7eb;
+  transition:transform .3s;
 }
+
+.card:hover img {
+  transform:scale(1.05);
+}
+
 .card .info {
   padding:15px;
   flex:1;
 }
+
 .card h3 {
   font-size:16px;
   margin:0 0 10px 0;
 }
+
 .card p {
   margin:4px 0;
   font-size:14px;
 }
+
 .card button {
   margin:15px;
   padding:10px;
@@ -81,6 +105,24 @@ header {
   font-size:14px;
   cursor:pointer;
 }
+
+/* Skeleton loading */
+.skeleton {
+  background:linear-gradient(
+    90deg,
+    #e5e7eb 25%,
+    #f3f4f6 37%,
+    #e5e7eb 63%
+  );
+  background-size:400% 100%;
+  animation:skeleton 1.4s ease infinite;
+}
+
+@keyframes skeleton {
+  0% { background-position:100% 0 }
+  100% { background-position:-100% 0 }
+}
+
 footer {
   text-align:center;
   padding:20px;
@@ -97,7 +139,9 @@ footer {
     <img src="logo.png" style="width:60px;height:60px;object-fit:contain;">
     <div>
       <h1 style="margin:0;">El Placer de la Lectura</h1>
-      <p style="margin:4px 0 0 0;font-size:14px;">Catálogo de libros disponibles</p>
+      <p style="margin:4px 0 0 0;font-size:14px;">
+        Catálogo de libros disponibles
+      </p>
     </div>
   </div>
 </header>
@@ -120,34 +164,63 @@ footer {
 const telefono = "593979255932";
 let libros = [];
 
-fetch('catalogo_libros.json')
+/* --------- CARGA DE DATOS --------- */
+fetch("catalogo_libros.json")
   .then(r => r.json())
   .then(data => {
     libros = data;
     mostrar(libros);
   });
 
+/* --------- UTILIDADES --------- */
 function limpiar(t) {
-  return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
+  return t.toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g,"")
+    .trim();
 }
 
-function obtenerPortada(titulo, img) {
+function tituloBusqueda(t) {
+  return t
+    .replace(/[-–].*/g,"")
+    .replace(/\(.*?\)/g,"")
+    .trim();
+}
+
+function placeholder(titulo) {
+  const txt = encodeURIComponent(titulo.slice(0,40));
+  return `https://dummyimage.com/400x600/1e293b/ffffff&text=${txt}`;
+}
+
+/* --------- PORTADAS --------- */
+function obtenerPortada(libro, img) {
+  const titulo = tituloBusqueda(libro.titulo);
+
   fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
     .then(r => r.json())
     .then(d => {
-      if (d.docs.length && d.docs[0].cover_i) {
+      if (d.docs?.[0]?.cover_i) {
         img.src = `https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
       } else {
-        img.src = "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80";
+        portadaGoogle(titulo, img);
       }
     })
-    .catch(() => {
-      img.src = "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80";
-    });
+    .catch(() => portadaGoogle(titulo, img));
 }
 
+function portadaGoogle(titulo, img) {
+  fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`)
+    .then(r => r.json())
+    .then(d => {
+      const url = d.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+      img.src = url ? url.replace("zoom=1","zoom=2") : placeholder(titulo);
+    })
+    .catch(() => img.src = placeholder(titulo));
+}
+
+/* --------- RENDER --------- */
 function mostrar(lista) {
-  const cont = document.getElementById('catalogo');
+  const cont = document.getElementById("catalogo");
   cont.innerHTML = "";
 
   if (!lista.length) {
@@ -160,7 +233,9 @@ function mostrar(lista) {
     card.className = "card";
 
     const img = document.createElement("img");
-    obtenerPortada(l.titulo, img);
+    img.classList.add("skeleton");
+    img.onload = () => img.classList.remove("skeleton");
+    obtenerPortada(l, img);
 
     const info = document.createElement("div");
     info.className = "info";
@@ -169,7 +244,7 @@ function mostrar(lista) {
       <p><b>Precio:</b> $${l.precio}</p>
       <p><b>Stock:</b> ${l.stock}</p>
       <p style="font-size:13px;color:#555;margin-top:8px;">
-        Para más información consulta por WhatsApp.
+        Consulta disponibilidad por WhatsApp.
       </p>
     `;
 
@@ -182,20 +257,22 @@ function mostrar(lista) {
   });
 }
 
+/* --------- BUSCADOR --------- */
 function buscar() {
   const t = limpiar(document.getElementById("search").value);
   if (!t) return mostrar(libros);
   mostrar(libros.filter(l => limpiar(l.titulo).includes(t)));
 }
 
+document.getElementById("search").addEventListener("keydown", e => {
+  if (e.key === "Enter") buscar();
+});
+
+/* --------- WHATSAPP --------- */
 function whatsapp(titulo, precio) {
   const msg = `Hola, estoy interesado en el libro: ${titulo} (Precio: $${precio})`;
   window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(msg)}`, "_blank");
 }
-
-document.getElementById("search").addEventListener("keydown", e => {
-  if (e.key === "Enter") buscar();
-});
 </script>
 
 </body>
