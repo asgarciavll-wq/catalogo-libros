@@ -2,3276 +2,3931 @@
   {
     "titulo": "Matematicas Discretas",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Matemáticas discretas esencial para estudiantes de computación e ingeniería. ¡Aprovecha este ejemplar disponible!"
   },
   {
     "titulo": "Trigonometria Schaum",
     "precio": 8.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "La clásica serie Schaum para dominar trigonometría con ejercicios resueltos. ¡Múltiples ejemplares disponibles!"
   },
   {
     "titulo": "Trigonometrias Granville",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Trigonometría de Granville, referencia académica confiable a precio especial. Stock limitado."
   },
   {
     "titulo": "Algebra Zill",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra de Zill, ideal para estudiantes universitarios. Último ejemplar disponible a excelente precio."
   },
   {
     "titulo": "Algebra Y Trigonoetria Swokowski",
     "precio": 31.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Swokowski completo: álgebra y trigonometría en un solo volumen. Material académico premium."
   },
   {
     "titulo": "Derivadas E Integrales",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Guía práctica de derivadas e integrales. ¡Solo $4 por esta herramienta matemática esencial!"
   },
   {
     "titulo": "Ecuaciones Y Matematicos",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia de las ecuaciones y los matemáticos. Aprende matemáticas con contexto histórico."
   },
   {
     "titulo": "Algebra Lovaglia",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Álgebra de Lovaglia, excelente para secundaria. Dos ejemplares disponibles a precio económico."
   },
   {
     "titulo": "Algebra Lehmann",
     "precio": 14.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Lehmann, el clásico del álgebra universitaria. Calidad académica garantizada."
   },
   {
     "titulo": "Algebra Rees - Spaks",
     "precio": 24.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra avanzada de Rees-Spaks. Para estudiantes de matemáticas puras. Único ejemplar."
   },
   {
     "titulo": "Algebra Gobran",
     "precio": 17.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra de Gobran, enfoque práctico y moderno. Perfecto para ingenieros en formación."
   },
   {
     "titulo": "Algebras Wetworth Y Smith",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Wetworth y Smith: dupla clásica del álgebra. Dos ejemplares disponibles a precio accesible."
   },
   {
     "titulo": "Geometria Elemental",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Geometría elemental, base fundamental para estudiantes. Último disponible a $10."
   },
   {
     "titulo": "Algebra Mancill Tomo I",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Mancill Tomo I: inicio perfecto para el álgebra. Dos ejemplares disponibles."
   },
   {
     "titulo": "Algebra Elemental Moderna - Mancill Tomo Ii",
     "precio": 6.0,
-    "stock": 4
+    "stock": 4,
+    "descripcion_comercial": "Mancill Tomo II, continuación ideal. ¡4 ejemplares disponibles solo a $6 cada uno!"
   },
   {
     "titulo": "Aritmetica 1 - Repetto",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Aritmética 1 de Repetto, clásico escolar. Dos ejemplares a solo $5 cada uno."
   },
   {
     "titulo": "Aritmetica 2 - Reppetto",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Continuación de la serie Repetto. Último ejemplar disponible para completar tu colección."
   },
   {
     "titulo": "Aritmetica 1, 2, 3 - Repetto",
     "precio": 5.0,
-    "stock": 6
+    "stock": 6,
+    "descripcion_comercial": "¡Paquete completo de aritmética Repetto! 6 ejemplares disponibles a precio especial."
   },
   {
     "titulo": "Aritmetica De Baldor - Original",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Baldor original de aritmética, pieza de colección. Único ejemplar disponible."
   },
   {
     "titulo": "Aritmetica De Baldor - Copia",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Copia de Baldor aritmética, contenido completo a menor precio. Excelente calidad."
   },
   {
     "titulo": "Aritmetica De Baldor - Originales",
     "precio": 16.0,
-    "stock": 4
+    "stock": 4,
+    "descripcion_comercial": "Baldor aritmética originales, 4 ejemplares disponibles. ¡El clásico que nunca falla!"
   },
   {
     "titulo": "Aritmetica De Baldor - Azul Original",
     "precio": 18.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Edición azul original de Baldor aritmética. Dos ejemplares disponibles, calidad premium."
   },
   {
     "titulo": "Solucionario De Baldor",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Solucionario de Baldor, complemento perfecto para verificar ejercicios. Último disponible."
   },
   {
     "titulo": "Algebra De Baldor - Original Nuevo",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¡Baldor álgebra original y nuevo! El legendario libro de matemáticas en perfecto estado."
   },
   {
     "titulo": "Algebra - Ardura",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Álgebra de Ardura, enfoque didáctico y claro. Dos ejemplares a precio económico."
   },
   {
     "titulo": "Algebra Y Funciones Elementales Kalnin",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kalnin: álgebra y funciones elementales. Excelente para pre-cálculo. Único ejemplar."
   },
   {
     "titulo": "Trigonometria De Baldor - Original",
     "precio": 20.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Baldor trigonometría original, el complemento perfecto para el álgebra. Pieza especial."
   },
   {
     "titulo": "Fundamentos Matematicas 1 - Espol",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fundamentos matemáticos ESPOL Tomo 1. Material académico ecuatoriano de calidad."
   },
   {
     "titulo": "Fundamentos De Matematicas - Espol",
     "precio": 34.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fundamentos matemáticos ESPOL completo. Inversión sólida para estudiantes universitarios."
   },
   {
     "titulo": "Geometria Analitica (O Y C) Schaum",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Geometría analítica Schaum, teoría y problemas. Dos ejemplares disponibles."
   },
   {
     "titulo": "Problemas De Geometria Analitica",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Colección de problemas de geometría analítica. Práctica adicional a bajo costo."
   },
   {
     "titulo": "Geometria Analitica De Lehmann - Original",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lehmann geometría analítica original, referencia académica de prestigio. Último disponible."
   },
   {
     "titulo": "Geometria Aanalitica De Lehman - Pasta Suave",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lehmann en pasta suave, mismo contenido a precio reducido. Excelente opción económica."
   },
   {
     "titulo": "Estadistica Schaum - Original",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Estadística Schaum original, esencial para ciencias e ingenierías. Dos ejemplares disponibles."
   },
   {
     "titulo": "Analisis Vectorial - Schaum",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Análisis vectorial Schaum, para física e ingeniería. Último ejemplar a precio especial."
   },
   {
     "titulo": "Quimica Fundamentos",
     "precio": 28.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fundamentos de química, texto completo y actualizado. Único ejemplar disponible."
   },
   {
     "titulo": "Quimica Para Todos (Copias)",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Química para todos, copia económica. ¡Aprende química básica por solo $3!"
   },
   {
     "titulo": "Materiales Quimica",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Materiales de química, recursos adicionales. Dos ejemplares a precio mínimo."
   },
   {
     "titulo": "Problemas Quimica General Tbarz - Original",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Problemas de química general Tbarz, original. Ejercicios prácticos para estudiantes."
   },
   {
     "titulo": "Vomentatura De Quimica - Caicedo",
     "precio": 4.0,
-    "stock": 8
+    "stock": 8,
+    "descripcion_comercial": "Vomentatura de química Caicedo, guía práctica. ¡8 ejemplares disponibles a $4 cada uno!"
   },
   {
     "titulo": "Quimica General - Schaum Y Rosenberg",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Química general Schaum-Rosenberg, dupla académica de excelencia. Último disponible."
   },
   {
     "titulo": "Quimica General - Armendaris",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Química general Armendaris, texto ecuatoriano. Precio especial por única unidad."
   },
   {
     "titulo": "Introduccion A La Fisica Tomo I - Maiztegui",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Introducción a la física Maiztegui Tomo I. Dos ejemplares para iniciar en física."
   },
   {
     "titulo": "Fisica General Schaum - Mercue",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Física general Schaum, referencia confiable para estudiantes. Último ejemplar disponible."
   },
   {
     "titulo": "Mecanica Vectorial P Ing V I - Nara",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mecánica vectorial Nara, para ingenieros. Conceptos fundamentales claramente explicados."
   },
   {
     "titulo": "Fisica Tomo I - Araujo",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Física Tomo I de Araujo, texto académico ecuatoriano. Calidad pedagógica garantizada."
   },
   {
     "titulo": "Fisica Conceptual - Hewitt",
     "precio": 28.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Física conceptual Hewitt, enfoque innovador para entender física. Único ejemplar."
   },
   {
     "titulo": "Fisica Fundamental 1 -Valero",
     "precio": 12.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Física fundamental 1 Valero, base sólida para estudiantes. Dos ejemplares disponibles."
   },
   {
     "titulo": "Fisica Fundamental 2 - Valero",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Continuación de física fundamental Valero. Completa tu estudio de física básica."
   },
   {
     "titulo": "Fundamento De Fisica V2 - Resnick",
     "precio": 25.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Resnick Halliday volumen 2, clásico de la física universitaria. Material de primer nivel."
   },
   {
     "titulo": "Fisica General - Biblia - Zeransky",
     "precio": 26.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Zeransky: la 'biblia' de la física general. Referencia completa y detallada."
   },
   {
     "titulo": "Sistemas Electricos De Potencia",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sistemas eléctricos de potencia, especializado para ingeniería eléctrica. Último disponible."
   },
   {
     "titulo": "Fisica General - Albarenga",
     "precio": 16.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Física general Albarenga, conocido por su claridad pedagógica. Ejemplar único."
   },
   {
     "titulo": "Fisica Mecanica Y Termodinamica",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Física: mecánica y termodinámica en un solo volumen. Dos ejemplares a precio especial."
   },
   {
     "titulo": "Calculos De Apostol 2 Tomos",
     "precio": 24.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo de Apostol completo en 2 tomos. Matemáticas avanzadas para universitarios."
   },
   {
     "titulo": "Calculo De Granvilla - Original",
     "precio": 16.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo de Granville original, clásico en enseñanza del cálculo. Último ejemplar."
   },
   {
     "titulo": "Calculo Schaum - Ayres",
     "precio": 20.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo Schaum de Ayres, problemas resueltos paso a paso. Herramienta invaluable."
   },
   {
     "titulo": "Calculo Diferencial En 1 Variable - Garcia",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo diferencial en una variable de García. Enfoque pedagógico ecuatoriano."
   },
   {
     "titulo": "Calculo - Zill",
     "precio": 34.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo de Zill, texto universitario completo y actualizado. Inversión académica segura."
   },
   {
     "titulo": "Calculo 1 - Tomas",
     "precio": 30.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo 1 de Tomás, conocido por sus explicaciones claras. Último ejemplar disponible."
   },
   {
     "titulo": "Curso Algebra Superior - Kurosch",
     "precio": 11.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra superior de Kurosch, para matemáticas avanzadas. Ejemplar único a buen precio."
   },
   {
     "titulo": "Algebra Superior - Bruño",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra superior Bruño, enfoque tradicional y riguroso. Último disponible."
   },
   {
     "titulo": "Algebra Superior - Spitgel",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Álgebra superior Spitgel, texto conciso y efectivo. Precio especial por unidad restante."
   },
   {
     "titulo": "Algebra Superior - Hall",
     "precio": 14.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Álgebra superior Hall, referencia internacional. Dos ejemplares disponibles."
   },
   {
     "titulo": "Biologia El Mundo De La Vida - Wallace",
     "precio": 14.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Biología: El mundo de la vida de Wallace. Introducción completa a las ciencias biológicas."
   },
   {
     "titulo": "Biologia - Villee",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Biología de Villee, texto universitario clásico. Último ejemplar disponible."
   },
   {
     "titulo": "Biologia - Nason",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Biología de Nason, enfoque moderno y actualizado. Precio especial por unidad única."
   },
   {
     "titulo": "Biologia - La Vida Y Sus Procesos",
     "precio": 18.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Biología: La vida y sus procesos. Dos ejemplares disponibles para estudiantes de ciencias."
   },
   {
     "titulo": "Biologia - Villee Completa",
     "precio": 67.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Villee completa, obra monumental de biología. Inversión para profesionales y bibliotecas."
   },
   {
     "titulo": "Biologia - Curtis",
     "precio": 80.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Curtis biología, referencia de lujo en ciencias biológicas. Calidad excepcional."
   },
   {
     "titulo": "Biologia - La Vida En La Tierra",
     "precio": 24.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Biología: La vida en la Tierra. Enfoque ecológico y evolutivo. Dos ejemplares disponibles."
   },
   {
     "titulo": "Higiene De La Cultura Fisica Y Deporte",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Higiene en cultura física y deporte. Esencial para entrenadores y deportistas profesionales."
   },
   {
     "titulo": "Ejercicios Fisico Rehabilitacion",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ejercicios de rehabilitación física. Guía práctica para fisioterapeutas y pacientes."
   },
   {
     "titulo": "Psiicologia Deportiva",
     "precio": 12.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Psicología deportiva, mentalidad de campeón. ¡3 ejemplares disponibles para equipos y atletas!"
   },
   {
     "titulo": "El Origen Del Hombre",
     "precio": 3.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "El origen del hombre, lectura fascinante sobre evolución humana. Tres ejemplares a precio mínimo."
   },
   {
     "titulo": "Introduccion A La Ciencia De Los Suelos",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Introducción a la ciencia de los suelos. Para agrónomos, ecólogos y ambientólogos."
   },
   {
     "titulo": "El Codigo De La Vida",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El código de la vida, introducción a la genética. ¡A solo $3 para aprender sobre ADN!"
   },
   {
     "titulo": "Jardineria De Bajo Mantenimiento",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Jardinería de bajo mantenimiento, ideal para espacios urbanos. Último ejemplar disponible."
   },
   {
     "titulo": "Invernadero",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Guía de invernaderos, para agricultores y aficionados. Construcción y manejo práctico."
   },
   {
     "titulo": "Hidroterapia",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hidroterapia, beneficios del agua para la salud. Terapias naturales accesibles."
   },
   {
     "titulo": "Masajes Y Aropaterapia",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Masajes y aromaterapia, bienestar integral. Técnicas para relajación y salud."
   },
   {
     "titulo": "Mediciones Termotecnicas 2 Tomos",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mediciones termotécnicas en 2 tomos. Especializado para ingeniería mecánica y térmica."
   },
   {
     "titulo": "Contabilidad De Costos - Hargadon",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Contabilidad de costos Hargadon, esencial para administración y finanzas. Último disponible."
   },
   {
     "titulo": "Contabilidad Intermedia - Vasconez",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Contabilidad intermedia Vasconez, texto ecuatoriano actualizado. Para estudiantes avanzados."
   },
   {
     "titulo": "Contabilidad De Costos - Noe Islas",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Contabilidad de costos Noe Islas, enfoque práctico empresarial. Ejemplar único."
   },
   {
     "titulo": "Administracion - Almeida",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Administración de Almeida, principios básicos de gestión. Precio económico para emprendedores."
   },
   {
     "titulo": "Microeconomia - Puga",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Microeconomía de Puga, análisis económico accesible. Último ejemplar disponible."
   },
   {
     "titulo": "El Shock Del Futuro - Toffler",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El shock del futuro de Toffler, clásico de prospectiva. Visión anticipada del cambio social."
   },
   {
     "titulo": "Plan Del Ecuador - Carrion",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Plan del Ecuador de Carrión, visión de desarrollo nacional. Análisis político-económico."
   },
   {
     "titulo": "Los Pepes - Morales",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los Pepes de Morales, crónica social ecuatoriana. Último ejemplar disponible."
   },
   {
     "titulo": "Ecuador De La No Republica A La No Republica",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador: de la no república a la no república. Análisis crítico de la realidad nacional."
   },
   {
     "titulo": "Como Se Hace Una Tesis - Eco",
     "precio": 5.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Cómo se hace una tesis de Umberto Eco. ¡3 ejemplares disponibles para universitarios!"
   },
   {
     "titulo": "Las 48 Leyes Del Poder",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Las 48 leyes del poder, estrategias de influencia. Último ejemplar disponible."
   },
   {
     "titulo": "Breve Historia Economica Del Ecuador",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Breve historia económica del Ecuador. Comprensión del desarrollo nacional."
   },
   {
     "titulo": "Criminalizacion De La Protesta",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Criminalización de la protesta, análisis jurídico-social. ¡Gratis por tiempo limitado!"
   },
   {
     "titulo": "Geopolitica De La Amazonia - Garcia",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Geopolítica de la Amazonía, importancia estratégica regional. Último disponible."
   },
   {
     "titulo": "Concepto",
     "precio": 6.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Concepto, lectura de reflexión filosófica. Tres ejemplares disponibles para mentes curiosas."
   },
   {
     "titulo": "Nacho Ecuador",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Nacho Ecuador, historia ilustrada para niños. ¡Aprende sobre el país jugando!"
   },
   {
     "titulo": "Nacho Matematicas",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Nacho matemáticas, diversión con números para niños. Último ejemplar disponible."
   },
   {
     "titulo": "Psicologia De La Enseñanza",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Psicología de la enseñanza, para educadores comprometidos. Mejora tus métodos pedagógicos."
   },
   {
     "titulo": "El Medico Naturista Opina",
     "precio": 13.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El médico naturista opina, salud alternativa y natural. Consejos para bienestar integral."
   },
   {
     "titulo": "Motores De Automovil",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Motores de automóvil, manual técnico para mecánicos y entusiastas. Último disponible."
   },
   {
     "titulo": "Curiosidades",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Curiosidades, libro de datos interesantes y sorprendentes. Para mentes inquietas."
   },
   {
     "titulo": "New Classic",
     "precio": 15.0,
-    "stock": 4
+    "stock": 4,
+    "descripcion_comercial": "New Classic, colección de literatura contemporánea. ¡4 ejemplares disponibles a precio especial!"
   },
   {
     "titulo": "Transferencia De Calor",
     "precio": 16.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Transferencia de calor, texto especializado para ingeniería. Último ejemplar disponible."
   },
   {
     "titulo": "Maquinas Electricas - Kosow",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Máquinas eléctricas de Kosow, para ingenieros eléctricos. Fundamentos teóricos y prácticos."
   },
   {
     "titulo": "Las Abejas En La Medicina",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Las abejas en la medicina, apiterapia y propiedades curativas. Salud natural a bajo costo."
   },
   {
     "titulo": "El Arte De Amargarse La Vida",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El arte de amargarse la vida, humor negro y reflexión. Último ejemplar disponible."
   },
   {
     "titulo": "Pluma Y Pincel",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pluma y pincel, arte y literatura combinados. Edición especial para coleccionistas."
   },
   {
     "titulo": "Humor 2 Tomos",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Humor en 2 tomos, risas garantizadas. Colección completa de chistes y anécdotas."
   },
   {
     "titulo": "Cristo ¿Mito O Realidad?",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cristo: ¿mito o realidad? Análisis histórico y teológico. Para lectores críticos."
   },
   {
     "titulo": "Etica",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ética, principios morales para la vida contemporánea. Reflexión filosófica accesible."
   },
   {
     "titulo": "Historia De La Accion Clerical En El Ecuador",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia de la acción clerical en Ecuador. Influencia religiosa en la sociedad nacional."
   },
   {
     "titulo": "Quito Luz De America",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Quito luz de América, orgullo capitalino. Historia y cultura quiteña."
   },
   {
     "titulo": "Codicia Insaciable",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Codicia insaciable, crítica social y económica. Análisis del consumismo contemporáneo."
   },
   {
     "titulo": "La Fruta Un Sano Placer",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La fruta: un sano placer, nutrición y recetas. Salud y sabor en un solo libro."
   },
   {
     "titulo": "La Gran Revolucion De Las Grasas",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La gran revolución de las grasas, verdad sobre nutrición. Mitos y realidades alimenticias."
   },
   {
     "titulo": "Cocinemos Con Kristy Tomos 1 Y 2",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cocinemos con Kristy tomos 1 y 2, cocina ecuatoriana completa. ¡Colección completa a precio especial!"
   },
   {
     "titulo": "Cocinemos Con Kristy Tomo 1 - Original",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cocinemos con Kristy tomo 1 original. Recetas tradicionales ecuatorianas."
   },
   {
     "titulo": "El Menu Diario Ecuatoriano",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El menú diario ecuatoriano, planificación culinaria nacional. Cocina práctica y auténtica."
   },
   {
     "titulo": "Cocina Internacional",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cocina internacional, viaje gastronómico por el mundo. ¡Solo $3 para explorar sabores!"
   },
   {
     "titulo": "Guia Practica De Medicamentos",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Guía práctica de medicamentos, referencia para profesionales de salud. Información actualizada."
   },
   {
     "titulo": "Diabetes Millitius",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diabetes mellitus, manejo y tratamiento. Información esencial para pacientes y familiares."
   },
   {
     "titulo": "Dermatologicas",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Dermatológicas, cuidado de la piel y tratamientos. Salud dermatológica accesible."
   },
   {
     "titulo": "Como Superar El Estres",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo superar el estrés, técnicas prácticas para bienestar mental. ¡Solo $3 por tranquilidad!"
   },
   {
     "titulo": "Liberese Del Dolor De Espalda",
     "precio": 14.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Libérese del dolor de espalda, soluciones efectivas. Mejora tu calidad de vida."
   },
   {
     "titulo": "Farmacologia General",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Farmacología general, fundamentos para estudiantes de salud. Último ejemplar disponible."
   },
   {
     "titulo": "Relaciones Intimas",
     "precio": 18.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Relaciones íntimas, comunicación y conexión en pareja. Desarrollo personal y afectivo."
   },
   {
     "titulo": "Sexo Hazlo Bien, Hazlo Seguro",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Sexo: hazlo bien, hazlo seguro. Educación sexual responsable. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Juguetes Eroticos",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Juguetes eróticos, exploración sexual segura e informada. Último ejemplar disponible."
   },
   {
     "titulo": "La Maravilla Del Amor",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La maravilla del amor, poesía y reflexión afectiva. Dos ejemplares disponibles."
   },
   {
     "titulo": "Puta Linda",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Puta linda, narrativa social y urbana. Último ejemplar disponible."
   },
   {
     "titulo": "Sexo ¿Y Ahora Que Hago?",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sexo: ¿y ahora qué hago? Guía práctica para jóvenes. Educación sexual clara y directa."
   },
   {
     "titulo": "Tantra",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Tantra, espiritualidad y sexualidad consciente. Último ejemplar disponible."
   },
   {
     "titulo": "Y Jesus Amaba A La Mujer",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Y Jesús amaba a la mujer, reinterpretación teológica. Enfoque feminista de la Biblia."
   },
   {
     "titulo": "Como Volver Loca A La Mujer En La Cama",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Cómo volver loca a la mujer en la cama, consejos prácticos. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Kama - Sutra El Nuevo",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama-Sutra el nuevo, versión moderna del clásico. Último ejemplar disponible."
   },
   {
     "titulo": "Como Hacer Feliz A Un Hombre",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo hacer feliz a un hombre, relaciones efectivas. Consejos para parejas."
   },
   {
     "titulo": "Kama Sutra Ideas Y Tecnicas",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra ideas y técnicas, exploración sexual creativa. Último disponible."
   },
   {
     "titulo": "El Arte De Hacer El Amor",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El arte de hacer el amor, intimidad plena. ¡2 ejemplares disponibles a precio especial!"
   },
   {
     "titulo": "Como Lograr Una Vida Sexual",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo lograr una vida sexual plena, bienestar íntimo. Último ejemplar disponible."
   },
   {
     "titulo": "Sexo Tatrico",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sexo tántrico, espiritualidad y erotismo. ¡Gratis por promoción especial!"
   },
   {
     "titulo": "Kama Sutra Para La Mujer",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra para la mujer, enfoque femenino del placer. Último disponible."
   },
   {
     "titulo": "Kama Sutra Para El Hombre",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra para el hombre, exploración masculina. Complemento perfecto."
   },
   {
     "titulo": "Kama Sutra Xxx",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra XXX, versión explícita y detallada. Solo para adultos."
   },
   {
     "titulo": "Guia Para Mujeres Sobre Hombre Y Sexo",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Guía para mujeres sobre hombre y sexo. Comprende la sexualidad masculina."
   },
   {
     "titulo": "Memorias De Una Pulga",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Memorias de una pulga, erotismo clásico. Último ejemplar disponible."
   },
   {
     "titulo": "Marques De Sade",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Marqués de Sade, provocación literaria. ¡Solo $2 por este clásico polémico!"
   },
   {
     "titulo": "Kama Sutra Ananga Ranga",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra Ananga Ranga, edición especial ilustrada. Para coleccionistas."
   },
   {
     "titulo": "Kama Sutra Ananga Ranga",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kama Sutra Ananga Ranga, versión económica. Mismo contenido a menor precio."
   },
   {
     "titulo": "El Manuscrito De Sonia",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El manuscrito de Sonia, intriga y pasión. Último ejemplar disponible."
   },
   {
     "titulo": "Putas Es Poco",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Putas es poco, narrativa cruda y realista. Literatura social impactante."
   },
   {
     "titulo": "Como Hacer Bien El Amor - Hamilton",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo hacer bien el amor de Hamilton. Técnicas y consejos expertos."
   },
   {
     "titulo": "Enciclopedia Ilustrada Sexologia 3 Tomos",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Enciclopedia ilustrada de sexología en 3 tomos. Obra completa de referencia sexual."
   },
   {
     "titulo": "Antropologia",
     "precio": 20.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Antropología, estudio del ser humano en sociedad. Texto académico completo."
   },
   {
     "titulo": "Prehispanico Quito",
     "precio": 20.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Prehispánico Quito, historia ancestral de la capital. Para amantes de la arqueología."
   },
   {
     "titulo": "Estetica Del Arte Precolombino",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Estética del arte precolombino, belleza ancestral. Último ejemplar disponible."
   },
   {
     "titulo": "Ecuador Prehistorico",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador prehistórico, nuestro pasado milenario. Historia nacional fascinante."
   },
   {
     "titulo": "Sublebaciones Indigenas",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Sublevaciones indígenas, lucha y resistencia histórica. Dos ejemplares disponibles."
   },
   {
     "titulo": "Identidades Historicas De Los Pueblos Indigenas Del Ecuador",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Identidades históricas de pueblos indígenas ecuatorianos. Reconocimiento cultural necesario."
   },
   {
     "titulo": "El Profeta Del Pueblo",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El profeta del pueblo, liderazgo y movimientos sociales. Último ejemplar disponible."
   },
   {
     "titulo": "El Ocaso De Los Idolos",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El ocaso de los ídolos de Nietzsche. Filosofía crítica del siglo XIX."
   },
   {
     "titulo": "Asi Hablaba Zaratrusta",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Así hablaba Zaratustra, obra cumbre de Nietzsche. Filosofía existencialista."
   },
   {
     "titulo": "Dos Mundos Superpuestos",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Dos mundos superpuestos, realidad y percepción. Reflexión filosófica contemporánea."
   },
   {
     "titulo": "El Poder Politico En El Ecuador",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El poder político en el Ecuador, análisis de estructuras de poder. Último disponible."
   },
   {
     "titulo": "Ecuador: De Banana Republic A La No Republica",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador: de banana republic a la no república. Historia política nacional crítica."
   },
   {
     "titulo": "El Asesinato De Eloy Alfaro",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El asesinato de Eloy Alfaro, investigación histórica. Misterio político ecuatoriano."
   },
   {
     "titulo": "La Guerra Civil Ecuatoriana 1895",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La guerra civil ecuatoriana 1895, conflicto histórico determinante. Último disponible."
   },
   {
     "titulo": "Liberalismo En El Ecuador",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Liberalismo en el Ecuador, ideología y práctica política. ¡Solo $2 por esta historia!"
   },
   {
     "titulo": "Los Generales No Corren",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los generales no corren, crítica militar y política. Último ejemplar disponible."
   },
   {
     "titulo": "Jose Peralta Y El Liberalismo",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "José Peralta y el liberalismo, figura histórica ecuatoriana. Biografía política."
   },
   {
     "titulo": "Eloy Alfaro 100 Fasetas Historicas",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Eloy Alfaro: 100 facetas históricas, visión multidimensional. Para estudiosos de historia."
   },
   {
     "titulo": "Fuerza De La Verdad Historica",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fuerza de la verdad histórica, metodología de investigación. Último ejemplar disponible."
   },
   {
     "titulo": "La Revolucion Politica Durante",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La revolución política durante, análisis de cambios sociales. Historia contemporánea."
   },
   {
     "titulo": "Critica De Las Concepciones No Marcistas",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Crítica de las concepciones no marxistas, debate ideológico. Último disponible."
   },
   {
     "titulo": "Historia De La Filosofia 2 Tomos",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia de la filosofía en 2 tomos, recorrido completo del pensamiento. Obra de referencia."
   },
   {
     "titulo": "Historia De Las Doctrinas Economicas",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia de las doctrinas económicas, evolución del pensamiento económico. Último disponible."
   },
   {
     "titulo": "Manifiesto Del Partido Comunista",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Manifiesto del Partido Comunista de Marx y Engels. Texto fundacional del socialismo."
   },
   {
     "titulo": "El Desarrollo Del Capitalismo",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El desarrollo del capitalismo, análisis económico marxista. Último ejemplar disponible."
   },
   {
     "titulo": "Desarrollo Humano Y Sustentable",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Desarrollo humano y sustentable, visión alternativa de progreso. Economía social."
   },
   {
     "titulo": "El Ecuador En La Epoco Cacaotera",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El Ecuador en la época cacaotera, economía histórica nacional. Periodo de bonanza."
   },
   {
     "titulo": "El Proceso De Dominacion Politica En El Ecuador",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El proceso de dominación política en Ecuador. Análisis sociológico de poder."
   },
   {
     "titulo": "Introduccion A Las Aves Del Ecuador",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Introducción a las aves del Ecuador, biodiversidad alada. Para ornitólogos y naturalistas."
   },
   {
     "titulo": "Primicias De La Cultura De Quito",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Primicias de la cultura de Quito, patrimonio intelectual capitalino. Último disponible."
   },
   {
     "titulo": "Estupidos Hombres Blancos",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Estúpidos hombres blancos, sátira política y social. Crítica mordaz contemporánea."
   },
   {
     "titulo": "¿Que Han Hecho Con Mi Pais?",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Qué han hecho con mi país? Análisis crítico de la realidad nacional. Último disponible."
   },
   {
     "titulo": "21 Lecciones",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "21 lecciones, sabiduría condensada para la vida. ¡Gratis por promoción especial!"
   },
   {
     "titulo": "El Festin Del Petroleo",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El festín del petróleo de Jaime Galarza. Crítica a la explotación petrolera ecuatoriana."
   },
   {
     "titulo": "Simon Bolivar",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Simón Bolívar, biografía del Libertador. Historia latinoamericana esencial."
   },
   {
     "titulo": "El Origen De La Vida",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El origen de la vida, ciencia y misterio. Último ejemplar disponible."
   },
   {
     "titulo": "La Linares",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La Linares, novela histórica ecuatoriana. Drama social y político."
   },
   {
     "titulo": "Ecuador: Una Nacion En Ciernes 3 Tomos",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador: una nación en ciernes en 3 tomos. Historia completa del proceso nacional."
   },
   {
     "titulo": "Logica",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lógica, pensamiento racional y argumentación. Herramienta intelectual fundamental."
   },
   {
     "titulo": "Conflicto Cosmico",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Conflicto cósmico, ciencia ficción y filosofía. Último ejemplar disponible."
   },
   {
     "titulo": "La Cia Contra America Latina",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La CIA contra América Latina, intervencionismo documentado. Historia política continental."
   },
   {
     "titulo": "El Arte De La Guerra",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El arte de la guerra de Sun Tzu. Estrategia clásica aplicable a diversos campos."
   },
   {
     "titulo": "¿Tiene Futuro Dios?",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Tiene futuro Dios? Debate teológico contemporáneo. Último ejemplar disponible."
   },
   {
     "titulo": "Los Mejores Cuentos",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Los mejores cuentos, antología literaria selecta. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Diario De Ana Frank",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diario de Ana Frank, testimonio histórico conmovedor. Lectura imprescindible."
   },
   {
     "titulo": "Los Mejores Chistes Del Mundo Laboral",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los mejores chistes del mundo laboral, humor oficinesco. Alivia la rutina laboral."
   },
   {
     "titulo": "Modismos Del Ingles",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Modismos del inglés, expresiones idiomáticas esenciales. Mejora tu fluidez lingüística."
   },
   {
     "titulo": "Yo Soy El Diego",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Yo soy el Diego, autobiografía de Maradona. Fútbol, pasión y controversia."
   },
   {
     "titulo": "Estrategias Y Juegos De Dominacion",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Estrategias y juegos de dominación, psicología del poder. Último ejemplar disponible."
   },
   {
     "titulo": "La Casa Del Jabonero Agd",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La casa del jabonero AGD, narrativa local. ¡Solo $2 por esta historia ecuatoriana!"
   },
   {
     "titulo": "Hombre Maquina",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hombre máquina, relación entre tecnología y humanidad. Último disponible."
   },
   {
     "titulo": "Historia Del Tiempo",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia del tiempo de Stephen Hawking. Cosmología para no científicos."
   },
   {
     "titulo": "Calculo Diferencial Integral Gv",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo diferencial e integral GV, texto universitario práctico. Último ejemplar disponible."
   },
   {
     "titulo": "Ca------- Descriptiva",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Geometría descriptiva, representación técnica espacial. ¡Solo $2 por herramienta de dibujo!"
   },
   {
     "titulo": "Experimento Teoria Y Practica",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Experimento: teoría y práctica, metodología científica. Dos ejemplares disponibles."
   },
   {
     "titulo": "Curso De Fisica General",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Curso de física general, enseñanza sistemática. Último ejemplar disponible."
   },
   {
     "titulo": "Calculo Diferencial Integral",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cálculo diferencial e integral, fundamentos matemáticos avanzados. Precio especial."
   },
   {
     "titulo": "Manual De La Teoria De Probabilidades",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Manual de teoría de probabilidades, estadística matemática. Último disponible."
   },
   {
     "titulo": "Geometria Analitica De Leman",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Geometría analítica de Lehmann, edición especial. Último ejemplar disponible."
   },
   {
     "titulo": "Mecanica Y Termodinamica (Fisica)",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mecánica y termodinámica, física fundamental. Último disponible."
   },
   {
     "titulo": "La Ciencia Su Metodo Y Filosofia",
     "precio": 2.5,
-    "stock": 5
+    "stock": 5,
+    "descripcion_comercial": "La ciencia: su método y filosofía. ¡5 ejemplares disponibles a solo $2.5 cada uno!"
   },
   {
     "titulo": "Teoria Del Conocimiento",
     "precio": 2.5,
-    "stock": 4
+    "stock": 4,
+    "descripcion_comercial": "Teoría del conocimiento, epistemología accesible. ¡4 ejemplares a precio mínimo!"
   },
   {
     "titulo": "Contabilidad General Zapata",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Contabilidad general de Zapata, principios básicos contables. Último disponible."
   },
   {
     "titulo": "Touchst Students 1A -1B",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Touchstone Students 1A-1B, inglés básico. ¡2 ejemplares disponibles para aprender inglés!"
   },
   {
     "titulo": "Yes Ingles - Curso Practico",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Yes Inglés - Curso práctico, aprendizaje efectivo del idioma. Último ejemplar."
   },
   {
     "titulo": "Galapagos Acuarelas",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Galápagos acuarelas, arte inspirado en las islas encantadas. Edición ilustrada especial."
   },
   {
     "titulo": "El Arte De Amar - Ovidio",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El arte de amar de Ovidio, clásico de la seducción. ¡Solo $2 por poesía romana!"
   },
   {
     "titulo": "El Juego Del Camaleon",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El juego del camaleón, adaptación y supervivencia social. Último disponible."
   },
   {
     "titulo": "Vida Pasion Y Muerte De Eugenio Espejo",
     "precio": 4.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Vida, pasión y muerte de Eugenio Espejo. ¡3 ejemplares del precursor de la independencia!"
   },
   {
     "titulo": "Rformador Ecuatoriano Augenio Espejo",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Reformador ecuatoriano Eugenio Espejo. Dos ejemplares del pensador ilustrado."
   },
   {
     "titulo": "Extasia",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Extasia, narrativa de intensidad emocional. Último ejemplar disponible."
   },
   {
     "titulo": "Manuela",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Manuela, figura histórica y literaria. Dos ejemplares disponibles."
   },
   {
     "titulo": "Manuela Cañizares",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Manuela Cañizares, heroína quiteña. ¡Solo $2 por esta historia patriótica!"
   },
   {
     "titulo": "Cartas Intimas Entre Bolivar Y Manuela",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cartas íntimas entre Bolívar y Manuela. Amor y política en la independencia."
   },
   {
     "titulo": "El Enigma Y El Espejo",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El enigma y el espejo, reflexión y misterio. Último ejemplar disponible."
   },
   {
     "titulo": "Discurso Sobre El Origen De Los Hombres",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Discurso sobre el origen de los hombres, antropología filosófica. ¡Solo $2!"
   },
   {
     "titulo": "El Banquete",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El banquete de Platón, diálogo sobre el amor. Filosofía clásica accesible."
   },
   {
     "titulo": "La Escolastica En El Medioevo",
     "precio": 1.5,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La escolástica en el medioevo, pensamiento medieval. ¡Solo $1.5 por historia filosófica!"
   },
   {
     "titulo": "Meditaciones Metafisicas",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Meditaciones metafísicas de Descartes. ¡Solo $2 por el 'pienso, luego existo'!"
   },
   {
     "titulo": "El Principe (Nicolas Maquiavelo)",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El Príncipe de Maquiavelo. ¡2 ejemplares del clásico de la política realista!"
   },
   {
     "titulo": "Constitucion Del Ecuador",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Constitución del Ecuador, texto legal fundamental. Dos ejemplares disponibles."
   },
   {
     "titulo": "Figuras Historicas",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Figuras históricas, biografías de personajes influyentes. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Juridico Elemental",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario jurídico elemental, terminología legal básica. Último disponible."
   },
   {
     "titulo": "Radiografia De Una Traicion",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Radiografía de una traición, análisis político. Dos ejemplares disponibles."
   },
   {
     "titulo": "La Noche De Las Cacerolas",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La noche de las cacerolas, protesta social documentada. Último ejemplar disponible."
   },
   {
     "titulo": "El Ultimo Inca Del Taguantinsuyo",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El último Inca del Tawantinsuyo, historia precolombina. Último disponible."
   },
   {
     "titulo": "Nueva Historia Del Ecuador (15 Tomos)",
     "precio": 100.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Nueva Historia del Ecuador en 15 tomos. ¡Colección completa por $100! Inversión histórica."
   },
   {
     "titulo": "Ecuador Contra La Dependencia",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador contra la dependencia, análisis económico-político. ¡Solo $2!"
   },
   {
     "titulo": "El Arte De Robar Al Estado",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El arte de robar al estado, corrupción documentada. Dos ejemplares disponibles."
   },
   {
     "titulo": "Relatos De La Historia De Loja 2 Tomos",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Relatos de la historia de Loja en 2 tomos. Patrimonio histórico lojano completo."
   },
   {
     "titulo": "Relatos De La Historia De Loja Tomo 2",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Relatos de la historia de Loja tomo 2. Continuación de la historia regional."
   },
   {
     "titulo": "Civiles Mas Militares ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Civiles más militares, relación civil-militar en Ecuador. Último ejemplar disponible."
   },
   {
     "titulo": "Contratos Petroleros ",
     "precio": 12.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Contratos petroleros, legislación y práctica. ¡3 ejemplares para profesionales del sector!"
   },
   {
     "titulo": "El Capital - Carlos Marx ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El Capital de Carlos Marx, obra fundamental de economía política. Último disponible."
   },
   {
     "titulo": "Lenin Socialismo Utopico ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lenin: socialismo utópico, teoría revolucionaria. Último ejemplar disponible."
   },
   {
     "titulo": "Lenin La Ideologia Y La Cultura Socialista ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lenin: la ideología y la cultura socialista. ¡Solo $2 por teoría política!"
   },
   {
     "titulo": "La Enfermedad Infantil De La Izquierda En El Comunismo ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La enfermedad infantil del izquierdismo en el comunismo. Crítica leninista interna."
   },
   {
     "titulo": "Elementos Fundamentales Para La Critica ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Elementos fundamentales para la crítica, teoría marxista. Último disponible."
   },
   {
     "titulo": "Dos Mundos Super Opuestos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Dos mundos super opuestos, dialéctica y conflicto. Último ejemplar disponible."
   },
   {
     "titulo": "El Montubio Ecuatoriano ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El montubio ecuatoriano, identidad costeña. Cultura y tradición nacional."
   },
   {
     "titulo": "El Espectador ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El espectador, análisis y observación social. ¡Solo $2 por perspectiva crítica!"
   },
   {
     "titulo": "Materialismo Y Empiriocriticismo ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Materialismo y empiriocriticismo, filosofía marxista. Último disponible."
   },
   {
     "titulo": "La Nausea - Premios Nobel ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La náusea de Sartre, existencialismo literario. Premio Nobel de Literatura."
   },
   {
     "titulo": "Charlas - M. J. Calle ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Charlas de M.J. Calle, conversaciones ilustradas. Último ejemplar disponible."
   },
   {
     "titulo": "Don Pedro Moncayo ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Don Pedro Moncayo, figura histórica ecuatoriana. Biografía política."
   },
   {
     "titulo": "El Ecuador Un Pais Clasico ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El Ecuador un país clásico, caracterización nacional. Último disponible."
   },
   {
     "titulo": "El Canal De Panama En Las Guerras Futuras ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El canal de Panamá en las guerras futuras, geopolítica. Estrategia internacional."
   },
   {
     "titulo": "Juan Montalvo Entrevista Imaginaria ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Juan Montalvo entrevista imaginaria, recreación literaria. Último ejemplar disponible."
   },
   {
     "titulo": "El Anticristo ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El anticristo de Nietzsche, crítica religiosa radical. ¡Solo $2 por filosofía provocativa!"
   },
   {
     "titulo": "Mas Alla Del Bien Y Del Mal ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Más allá del bien y del mal, filosofía nietzscheana. Último disponible."
   },
   {
     "titulo": "La Voluntad De Poderio ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La voluntad de poderío, concepto central nietzscheano. Último ejemplar disponible."
   },
   {
     "titulo": "El Discurso Del Metodo ",
     "precio": 2.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "El discurso del método de Descartes. ¡3 ejemplares disponibles a solo $2 cada uno!"
   },
   {
     "titulo": "Bolivar Empresario ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Bolívar empresario, faceta económica del Libertador. Último disponible."
   },
   {
     "titulo": "La Imagen De Brazil En Las Cartas De Bolivar ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La imagen de Brasil en las cartas de Bolívar. ¡Solo $2 por historia diplomática!"
   },
   {
     "titulo": "Cuentos Negros De Cuba ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cuentos negros de Cuba, narrativa afrocubana. Último ejemplar disponible."
   },
   {
     "titulo": "Historia De Cuba ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Historia de Cuba, proceso nacional cubano. Último disponible."
   },
   {
     "titulo": "Pensar, Prever, Servir ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pensar, prever, servir, filosofía práctica. Último ejemplar disponible."
   },
   {
     "titulo": "Una Historia Dentro De La Historia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Una historia dentro de la historia, metanarrativa. Último disponible."
   },
   {
     "titulo": "Identidad Y Formas Del Ecuatoriano ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Identidad y formas del ecuatoriano, antropología nacional. Último ejemplar disponible."
   },
   {
     "titulo": "El Santo Del Patibulo Garcia Moreno ",
     "precio": 30.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El santo del patíbulo: García Moreno. Biografía del controvertido presidente ecuatoriano."
   },
   {
     "titulo": "Colonialismo Y Soberania ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Colonialismo y soberanía, relaciones internacionales. Último disponible."
   },
   {
     "titulo": "Por Un Mundo Justo Y Unido ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Por un mundo justo y unido, idealismo político. ¡Solo $2 por utopía práctica!"
   },
   {
     "titulo": "Che Su Palabra Como Arma De Combate ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Che: su palabra como arma de combate, discursos revolucionarios. Último disponible."
   },
   {
     "titulo": "Che Sin Enigmas ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Che sin enigmas, biografía desmitificadora. Último ejemplar disponible."
   },
   {
     "titulo": "Yo Tengo 7 Vidas Che ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Yo tengo 7 vidas Che, múltiples facetas del revolucionario. Último disponible."
   },
   {
     "titulo": "Che Guevara ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Che Guevara, icono revolucionario. Biografía básica del guerrillero argentino."
   },
   {
     "titulo": "Che Guevara Biblioteca Historica ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Che Guevara biblioteca histórica, edición documentada. Último ejemplar disponible."
   },
   {
     "titulo": "Como Era El Che",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo era el Che, retrato personal. Último disponible."
   },
   {
     "titulo": "La Edad De Oro Marti ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La edad de oro de José Martí, literatura infantil cubana. Último ejemplar disponible."
   },
   {
     "titulo": "Otras Mitologias ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Otras mitologías, creencias ancestrales diversas. Último disponible."
   },
   {
     "titulo": "El Instante Fugitivo ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El instante fugitivo, poesía del momento. Último ejemplar disponible."
   },
   {
     "titulo": "Cuentos London Y Vallejo ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cuentos de London y Vallejo, narrativa diversa. Último disponible."
   },
   {
     "titulo": "Breve Historia General Del Ecuador ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Breve historia general del Ecuador, síntesis nacional. Último ejemplar disponible."
   },
   {
     "titulo": "Quienes Mataron A Roldos ",
     "precio": 12.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "¿Quiénes mataron a Roldós? Investigación del misterioso fallecimiento presidencial. ¡3 ejemplares!"
   },
   {
     "titulo": "Los Hijos De La Tierra ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los hijos de la Tierra, narrativa ecológica. ¡Gratis por conciencia ambiental!"
   },
   {
     "titulo": "100 Años Eloy Alfaro Y Sus Victimarios ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "100 años: Eloy Alfaro y sus victimarios, centenario de su asesinato. Último disponible."
   },
   {
     "titulo": "Eloy Alfaro Cubano ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Eloy Alfaro cubano, conexiones caribeñas. Último ejemplar disponible."
   },
   {
     "titulo": "Vida Ejemplar De Simon Bolivar ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Vida ejemplar de Simón Bolívar, biografía inspiradora. Último disponible."
   },
   {
     "titulo": "El Hacha Enterrada ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El hacha enterrada, reconciliación y paz. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Novelas - Esqueleto Editorial ",
     "precio": 3.0,
-    "stock": 29
+    "stock": 29,
+    "descripcion_comercial": "Novelas de Esqueleto Editorial. ¡29 ejemplares disponibles a solo $3 cada uno! Gran variedad."
   },
   {
     "titulo": "Psicologia De Las Multitudes ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Psicología de las multitudes, comportamiento colectivo. Último ejemplar disponible."
   },
   {
     "titulo": "Raffles Manos De Seda ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Raffles: manos de seda, elegante ladrón literario. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Arte Como Herejia ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El arte como herejía, creatividad transgresora. Último disponible."
   },
   {
     "titulo": "Sueños Eroticos ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sueños eróticos, fantasía y deseo onírico. Último ejemplar disponible."
   },
   {
     "titulo": "El Poder Secreto De Los Sueños ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El poder secreto de los sueños, interpretación y significado. Último disponible."
   },
   {
     "titulo": "Flor De Leyendas ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Flor de leyendas, narrativa tradicional. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "La Isla En Peso",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La isla en peso, literatura cubana. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Juicio Del Moncada ",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El juicio del Moncada, histórico proceso cubano. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "La Loma Del Angel ",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La loma del ángel, novela cubana clásica. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Y Si Fuera Una Huella?",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Y si fuera una huella? misterio y suspense. Último ejemplar disponible."
   },
   {
     "titulo": "El Testamento ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El testamento, intriga legal y familiar. Último disponible."
   },
   {
     "titulo": "Codigo Da Vinci La Leyenda Del Santo Grial ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Código Da Vinci: la leyenda del Santo Grial. Misterio religioso y conspiración."
   },
   {
     "titulo": "Tu No Vas A Morir ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Tú no vas a morir, superación personal. ¡Gratis por tiempo limitado!"
   },
   {
     "titulo": "Maria Magdalena Y El Santo Grial ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "María Magdalena y el Santo Grial, teoría alternativa cristiana. Último disponible."
   },
   {
     "titulo": "El Complot De Maria Magdalena ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El complot de María Magdalena, conspiración histórica. Último ejemplar disponible."
   },
   {
     "titulo": "La Pasion De Maria Magdalena ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La pasión de María Magdalena, narrativa histórica. Último disponible."
   },
   {
     "titulo": "El Simbolo Perdido ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El símbolo perdido de Dan Brown. Misterios masónicos en Washington."
   },
   {
     "titulo": "Origen ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Origen de Dan Brown. Inteligencia artificial y el futuro de la humanidad."
   },
   {
     "titulo": "La Conspiracion ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La conspiración, thriller político. Último ejemplar disponible."
   },
   {
     "titulo": "Inferno ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Inferno de Dan Brown. Dante y una crisis de sobrepoblación mundial."
   },
   {
     "titulo": "El Codigo Da Vinci Original ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El código Da Vinci original, bestseller mundial. Último ejemplar disponible."
   },
   {
     "titulo": "Caballo De Troya Numero 3 ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Caballo de Troya número 3, viaje en el tiempo a la época de Jesús. Último disponible."
   },
   {
     "titulo": "Caballo De Troya Numero 4",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Caballo de Troya número 4, continuación de la saga temporal. Último ejemplar disponible."
   },
   {
     "titulo": "Caballo De Troya Numero 7 ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Caballo de Troya número 7, nueva entrega de la serie. Último disponible."
   },
   {
     "titulo": "Caballo De Troya Numero 6 ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Caballo de Troya número 6, aventura histórico-religiosa. Último ejemplar disponible."
   },
   {
     "titulo": "La Vida Con El Lama ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La vida con el lama, espiritualidad tibetana. Último disponible."
   },
   {
     "titulo": "El Tercer Ojo ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El tercer ojo, percepción extrasensorial. Último ejemplar disponible."
   },
   {
     "titulo": "Mas Alla Del Decimo ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Más allá del décimo, numerología y destino. Último disponible."
   },
   {
     "titulo": "Tal Como Fue ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Tal como fue, memorias y recuerdos. Último ejemplar disponible."
   },
   {
     "titulo": "De Veras Los Ovnis Nos Vigilan ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿De veras los ovnis nos vigilan? ufología y misterio. Último disponible."
   },
   {
     "titulo": "Quirologia ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Quirología, lectura de manos. Último ejemplar disponible."
   },
   {
     "titulo": "A La Escucha De Los Planetas ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "A la escucha de los planetas, astrología práctica. Último disponible."
   },
   {
     "titulo": "Angeles - Como Y Cuando Invocarlos",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ángeles: cómo y cuándo invocarlos. ¡Solo $2 por guía espiritual!"
   },
   {
     "titulo": "La Era De Acuario ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La era de Acuario, nueva conciencia espiritual. Último ejemplar disponible."
   },
   {
     "titulo": "La Influencia Del Color ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La influencia del color, psicología cromática. Último disponible."
   },
   {
     "titulo": "Como Interpretar Los Sueños ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo interpretar los sueños, manual onírico. Último ejemplar disponible."
   },
   {
     "titulo": "Sanar A Traves De La Oracion ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sanar a través de la oración, fe y salud. Último disponible."
   },
   {
     "titulo": "Confesiones - El Diablo Ilustrado",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Confesiones: el diablo ilustrado, sátira religiosa. Último ejemplar disponible."
   },
   {
     "titulo": "Justos Y Pecadores ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Justos y pecadores, moralidad humana. Último disponible."
   },
   {
     "titulo": "Terapia De Vidas Pasadas ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Terapia de vidas pasadas, regresión espiritual. Último ejemplar disponible."
   },
   {
     "titulo": "La Moderna Quirologia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La moderna quirología, quiromancia actualizada. Último disponible."
   },
   {
     "titulo": "Confidencias De Un Clarividente ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Confidencias de un clarividente, percepción extrasensorial. Último ejemplar disponible."
   },
   {
     "titulo": "La Fusion De Nuestras Energias ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La fusión de nuestras energías, armonía interpersonal. Último disponible."
   },
   {
     "titulo": "El Poder Curativo De Giokgo",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El poder curativo del giokgo, terapia alternativa. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Masonico Palabra Y Sabiduria ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario masónico: palabra y sabiduría. Simbología y tradición masónica."
   },
   {
     "titulo": "Hablando Con El Cielo ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hablando con el cielo, comunicación espiritual. Último disponible."
   },
   {
     "titulo": "El Continente Perdido ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El continente perdido, Atlántida y misterios antiguos. Último ejemplar disponible."
   },
   {
     "titulo": "La Oracion De La Rana ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La oración de la rana, parábolas espirituales. Último disponible."
   },
   {
     "titulo": "Poder Secretos De Los Animales ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Poderes secretos de los animales, conexión natural. Último ejemplar disponible."
   },
   {
     "titulo": "Como Adquirir Una Supermemoria",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo adquirir una supermemoria, técnicas mnemotécnicas. Último disponible."
   },
   {
     "titulo": "El Documento ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El documento, misterio y búsqueda. Último ejemplar disponible."
   },
   {
     "titulo": "Los Secretos De Angeles Y Demonios ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los secretos de Ángeles y Demonios, complemento del bestseller. Último disponible."
   },
   {
     "titulo": "Coleccion Antares",
     "precio": 4.0,
-    "stock": 174
+    "stock": 174,
+    "descripcion_comercial": "Colección Antares. ¡174 ejemplares disponibles a solo $4 cada uno! Gran surtido literario."
   },
   {
     "titulo": "Coleccion Clasicos De Siempre ",
     "precio": 1.0,
-    "stock": 176
+    "stock": 176,
+    "descripcion_comercial": "Colección Clásicos de Siempre. ¡176 ejemplares a solo $1 cada uno! Literatura universal económica."
   },
   {
     "titulo": "Novelas Infanto Juveniles ",
     "precio": 3.0,
-    "stock": 29
+    "stock": 29,
+    "descripcion_comercial": "Novelas infanto-juveniles. ¡29 ejemplares disponibles para jóvenes lectores a $3 cada uno!"
   },
   {
     "titulo": "Carlos Cuauhtemoc Sanchez ",
     "precio": 3.0,
-    "stock": 28
+    "stock": 28,
+    "descripcion_comercial": "Carlos Cuauhtémoc Sánchez. ¡28 ejemplares del autor de superación personal a $3 cada uno!"
   },
   {
     "titulo": "Los 3 Mosqueteros ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los tres mosqueteros de Dumas. ¡Último ejemplar disponible del clásico de aventuras!"
   },
   {
     "titulo": "Los Jefes Y Los Cachorros ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los jefes y los cachorros de Vargas Llosa. Último disponible de sus primeros relatos."
   },
   {
     "titulo": "La Leyenda De Hernan ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La leyenda de Hernán, narrativa histórica. ¡Solo $2 por esta historia!"
   },
   {
     "titulo": "Casi Magica ",
     "precio": 5.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Casi mágica, fantasía y realidad. ¡3 ejemplares disponibles a $5 cada uno!"
   },
   {
     "titulo": "El Secreto De Otros Cuentos ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El secreto de otros cuentos, narrativa breve. Último ejemplar disponible."
   },
   {
     "titulo": "La Colmena ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La colmena de Cela, novela social española. Último disponible."
   },
   {
     "titulo": "La Familia Pascual Duarte ",
     "precio": 2.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La familia de Pascual Duarte de Cela. ¡2 ejemplares del clásico del tremendismo!"
   },
   {
     "titulo": "El Valle De Las Muñecas ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El valle de las muñecas, drama y fama. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Administracion ",
     "precio": 8.0,
-    "stock": 25
+    "stock": 25,
+    "descripcion_comercial": "Administración, textos diversos. ¡25 ejemplares disponibles para estudiantes y profesionales!"
   },
   {
     "titulo": "Ajeno A La Tierra ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ajeno a la Tierra, ciencia ficción clásica. Último ejemplar disponible."
   },
   {
     "titulo": "Lingüistica General ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lingüística general, estudio del lenguaje. Último disponible."
   },
   {
     "titulo": "La Tregua ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La tregua de Benedetti, novela sobre el amor tardío. Último ejemplar disponible."
   },
   {
     "titulo": "Juan Salvador Gaviota ",
     "precio": 2.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Juan Salvador Gaviota de Bach. ¡2 ejemplares disponibles de esta fábula espiritual!"
   },
   {
     "titulo": "Adios A Las Almas ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Adiós a las almas, narrativa profunda. Último disponible."
   },
   {
     "titulo": "El Profeta ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El profeta de Gibran, sabiduría poética. Último ejemplar disponible."
   },
   {
     "titulo": "El Velero De Cristal ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El velero de cristal, metáfora de vida. Último disponible."
   },
   {
     "titulo": "Harina Huerfana ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Harina huérfana, narrativa social. ¡Gratis por tiempo limitado!"
   },
   {
     "titulo": "Mi Planta Naranja Lima ",
     "precio": 0.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Mi planta naranja lima de Vasconcelos. ¡2 ejemplares gratuitos de este clásico infantil brasileño!"
   },
   {
     "titulo": "Vamos A Calentar El Sol ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Vamos a calentar el sol, continuación de 'Mi planta naranja lima'. Último disponible."
   },
   {
     "titulo": "El Reino De Este Mundo ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El reino de este mundo de Carpentier, realismo mágico caribeño. Último ejemplar disponible."
   },
   {
     "titulo": "Memorias De Un Asno ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Memorias de un asno, fábula con perspectiva animal. Último disponible."
   },
   {
     "titulo": "El Maestro Ciruela ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El maestro Ciruela, humor y enseñanza. ¡Solo $2 por esta divertida historia!"
   },
   {
     "titulo": "Papel Mojado ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Papel mojado, drama social. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Requiem Para Pedro Navaja ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Réquiem para Pedro Navaja, versión literaria del famoso personaje. Último disponible."
   },
   {
     "titulo": "Ojitos De Angel ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ojitos de ángel, ternura narrativa. Último ejemplar disponible."
   },
   {
     "titulo": "La Mala Hora Garcia Marquez ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La mala hora de García Márquez. Último disponible de sus primeras novelas."
   },
   {
     "titulo": "El Coronel No Tiene Quien Le Escriba ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El coronel no tiene quien le escriba de García Márquez. Último ejemplar disponible."
   },
   {
     "titulo": "En Agosto Nos Vemos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "En agosto nos vemos, novela póstuma de García Márquez. Último disponible."
   },
   {
     "titulo": "Los Funerales De Mama Grande ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los funerales de la Mamá Grande de García Márquez. Último ejemplar disponible."
   },
   {
     "titulo": "Ojos De Perro Azul ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ojos de perro azul, primeros relatos de García Márquez. Último disponible."
   },
   {
     "titulo": "Ojos De Perro Azul Periodico ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ojos de perro azul edición periódico. Último ejemplar disponible en formato especial."
   },
   {
     "titulo": "El General En Su Laberinto ",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El general en su laberinto de García Márquez. ¡2 ejemplares disponibles sobre Bolívar!"
   },
   {
     "titulo": "Vivir Para Contarla ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Vivir para contarla, autobiografía de García Márquez. Último disponible."
   },
   {
     "titulo": "El Otoño Del Patriarca ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El otoño del patriarca de García Márquez. Último ejemplar disponible sobre el poder absoluto."
   },
   {
     "titulo": "Alquimista Escrito En Portugues ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El alquimista escrito en portugués. Último disponible en idioma original de Coelho."
   },
   {
     "titulo": "Alquimista En Español ",
     "precio": 9.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El alquimista en español de Paulo Coelho. Último ejemplar disponible del bestseller espiritual."
   },
   {
     "titulo": "La Quinta Montaña ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La quinta montaña de Coelho. ¡2 ejemplares disponibles sobre fe y destino!"
   },
   {
     "titulo": "Brida ",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Brida de Coelho. ¡2 ejemplares disponibles sobre espiritualidad femenina!"
   },
   {
     "titulo": "Aleph",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Aleph de Coelho. ¡2 ejemplares disponibles sobre viajes espirituales!"
   },
   {
     "titulo": "Sonetos, Fabulas Y Leyendas ",
     "precio": 0.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Sonetos, fábulas y leyendas. ¡2 ejemplares gratuitos de literatura clásica!"
   },
   {
     "titulo": "Juegos Educativos Interpersonales ",
     "precio": 0.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Juegos educativos interpersonales. ¡3 ejemplares gratuitos para desarrollo social!"
   },
   {
     "titulo": "Juguemos Mas ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Juguemos más, actividades recreativas. Último ejemplar disponible."
   },
   {
     "titulo": "El Exito De La Mujer ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El éxito de la mujer, desarrollo profesional femenino. Último disponible."
   },
   {
     "titulo": "Ensayo Sobre La Ceguera ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ensayo sobre la ceguera de Saramago. Último ejemplar disponible del Nobel portugués."
   },
   {
     "titulo": "20000 Leguas De Viaje Submarino ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "20,000 leguas de viaje submarino de Verne. Último disponible del clásico de aventuras."
   },
   {
     "titulo": "2 Años De Vacaciones Julio Verne ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "2 años de vacaciones de Julio Verne. Último ejemplar disponible."
   },
   {
     "titulo": "2 Años De Vacaciones Empastado ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "2 años de vacaciones empastado de Verne. Último disponible en edición especial."
   },
   {
     "titulo": "La Vuelta Al Mundo En 80 Dias ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La vuelta al mundo en 80 días de Verne. Último ejemplar disponible."
   },
   {
     "titulo": "Eugenia Grandet ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Eugenia Grandet de Balzac. Último disponible del realismo francés."
   },
   {
     "titulo": "Cuentos Elegidos - London ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cuentos elegidos de Jack London. Último ejemplar disponible del autor de aventuras."
   },
   {
     "titulo": "Los Animales Puros ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los animales puros, fábula moral. Último disponible."
   },
   {
     "titulo": "El Viejo Y El Mar ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El viejo y el mar de Hemingway. ¡2 ejemplares disponibles del clásico Nobel!"
   },
   {
     "titulo": "Los De Abajo ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los de abajo de Azuela, novela de la Revolución Mexicana. ¡Solo $2!"
   },
   {
     "titulo": "Crimen Y Castigo ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Crimen y castigo de Dostoievski. ¡Solo $2 por este clásico de la literatura rusa!"
   },
   {
     "titulo": "Los Ojos Del Perro Siberiano ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los ojos del perro siberiano, novela juvenil argentina. Último ejemplar disponible."
   },
   {
     "titulo": "Despertar La Sensualidad ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Despertar la sensualidad, desarrollo personal íntimo. Último disponible."
   },
   {
     "titulo": "Ensayos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ensayos, reflexiones diversas. Último ejemplar disponible."
   },
   {
     "titulo": "Amanecer ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Amanecer, narrativa poética. Último disponible."
   },
   {
     "titulo": "A Orillas Del Rio Me Sente Y Llore ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "A orillas del río me senté y lloré. ¡2 ejemplares disponibles de narrativa emocional!"
   },
   {
     "titulo": "Veronica Decide Morir ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Verónica decide morir de Coelho. Último ejemplar disponible sobre vida y muerte."
   },
   {
     "titulo": "7 Leyes Espirituales Para Padres ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "7 leyes espirituales para padres de Chopra. Último disponible para crianza consciente."
   },
   {
     "titulo": "Las 7 Leyes Espirituales Del Exito ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Las 7 leyes espirituales del éxito de Chopra. Último ejemplar disponible."
   },
   {
     "titulo": "Pon Comienzo Magico ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pon comienzo mágico, autoayuda práctica. Último disponible."
   },
   {
     "titulo": "Jamas Moriremos ",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Jamás moriremos, exploración de la inmortalidad. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Hijas De La Alegria ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hijas de la alegría, narrativa femenina. Último ejemplar disponible."
   },
   {
     "titulo": "¿Tiene Futuro Dios?",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Tiene futuro Dios? debate teológico moderno. Último disponible."
   },
   {
     "titulo": "Fabulas De Esopo 4",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fábulas de Esopo 4, enseñanza moral clásica. Último ejemplar disponible."
   },
   {
     "titulo": "Fabulas De Esopo 6 ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fábulas de Esopo 6, más lecciones atemporales. Último disponible."
   },
   {
     "titulo": "Pasatiempos",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pasatiempos, entretenimiento mental. ¡Solo $2 por horas de diversión!"
   },
   {
     "titulo": "El Psicologo En El Hospital Pediatrico ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El psicólogo en el hospital pediátrico, psicología infantil aplicada. Último ejemplar disponible."
   },
   {
     "titulo": "Problemas Y Perspectivas Internacionales ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Problemas y perspectivas internacionales, relaciones globales. Último disponible."
   },
   {
     "titulo": "Estimulacion Temprana ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Estimulación temprana, desarrollo infantil. Último ejemplar disponible."
   },
   {
     "titulo": "Juegos De Pluma ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Juegos de pluma, literatura lúdica. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Llamado De Lo Salvaje ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El llamado de lo salvaje de London. Último disponible del clásico de aventuras caninas."
   },
   {
     "titulo": "El Lobo De Mar ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El lobo de mar de London. Último ejemplar disponible de aventura marina."
   },
   {
     "titulo": "Rios Profundos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ríos profundos de Arguedas. Último disponible de la narrativa andina."
   },
   {
     "titulo": "El Ciclo De Las Luces ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El ciclo de las luces, narrativa filosófica. Último ejemplar disponible."
   },
   {
     "titulo": "Torotumbo ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Torotumbo, literatura social. Último disponible."
   },
   {
     "titulo": "Cuentos Memorables Borges",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cuentos memorables de Borges. Último ejemplar disponible del maestro argentino."
   },
   {
     "titulo": "Educacion Civica ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Educación cívica, formación ciudadana. Último disponible."
   },
   {
     "titulo": "Gramatica Española ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Gramática española, fundamentos del idioma. ¡Solo $2 por herramienta lingüística!"
   },
   {
     "titulo": "Ortografia Para Todos ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ortografía para todos, escritura correcta. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Aristos ",
     "precio": 3.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "Diccionario Aristos. ¡3 ejemplares disponibles a solo $3 cada uno!"
   },
   {
     "titulo": "Multidiccionario ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Multidiccionario, referencia lingüística completa. Último disponible."
   },
   {
     "titulo": "Vocabulario Tecnico Cientifico ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Vocabulario técnico científico, terminología especializada. Último ejemplar disponible."
   },
   {
     "titulo": "Ortografia De La Lengua Española ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ortografía de la lengua española, normativa actual. Último disponible."
   },
   {
     "titulo": "Gran Diccionario De Sinonimos Y Antonimos ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Gran diccionario de sinónimos y antónimos. Último ejemplar disponible para escritura enriquecida."
   },
   {
     "titulo": "Diccionario Sinanimos Y Antonimos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario de sinónimos y antónimos, básico y práctico. Último disponible."
   },
   {
     "titulo": "Diccionario De Ciencias ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario de ciencias, términos científicos. Último ejemplar disponible."
   },
   {
     "titulo": "Ejercicios Latinos ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ejercicios latinos, práctica de lengua clásica. Último disponible."
   },
   {
     "titulo": "Diccionario Ingles Castellano ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario inglés-castellano, bilingüe básico. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Enciclopedico Basico ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario enciclopédico básico, conocimiento general. Último disponible."
   },
   {
     "titulo": "Diccionario Ingrese Español Español Ingles ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario inglés-español / español-inglés, doble dirección. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Portugues Español ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario portugués-español, para lusoparlantes. Último disponible."
   },
   {
     "titulo": "Diccionario Western American English ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario Western American English, inglés estadounidense. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Chambers ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario Chambers, referencia inglesa prestigiosa. Último disponible."
   },
   {
     "titulo": "Diccionario Pocke English ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario pocket English, portátil y práctico. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Español Ingles Espasa ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario español-inglés Espasa, de reconocida editorial. Último disponible."
   },
   {
     "titulo": "Diccionario Compact Español Aleman ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario compact español-alemán, para estudiantes de alemán. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Ruso Ingles ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario ruso-inglés. ¡Gratis por tiempo limitado para estudiantes de idiomas eslavos!"
   },
   {
     "titulo": "Por Que Estas Aqui ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "¿Por qué estás aquí? reflexión existencial. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Mil Razones Para Quedarme ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mil razones para quedarme, narrativa romántica. Último ejemplar disponible."
   },
   {
     "titulo": "Si Es Contigo ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Si es contigo, amor y destino. Último disponible."
   },
   {
     "titulo": "Cazadores De Sombras ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cazadores de sombras, fantasía urbana. Último ejemplar disponible."
   },
   {
     "titulo": "Impaciencia Del Corazon ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Impaciencia del corazón de Zweig. Último disponible del maestro austríaco."
   },
   {
     "titulo": "Yo Estoy Bien Tu Estas Bien ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Yo estoy bien, tú estás bien, análisis transaccional. Último ejemplar disponible."
   },
   {
     "titulo": "Que Dice Usted Despues De Decir Hola",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Qué dice usted después de decir hola? comunicación efectiva. Último disponible."
   },
   {
     "titulo": "Cancion Triste De Cualquier Mujer ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Canción triste de cualquier mujer, poesía femenina. Último ejemplar disponible."
   },
   {
     "titulo": "Mensajes Inspirados Para La Vida Diaria ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mensajes inspirados para la vida diaria, reflexión cotidiana. Último disponible."
   },
   {
     "titulo": "Como Vencer La Timidez ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo vencer la timidez, desarrollo personal. Último ejemplar disponible."
   },
   {
     "titulo": "No Digas Si Cuando Quieras Decir No ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "No digas sí cuando quieras decir no, asertividad. Último disponible."
   },
   {
     "titulo": "Depresion ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Depresión, comprensión y manejo. Último ejemplar disponible."
   },
   {
     "titulo": "Tus Zonas Magicas ",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Tus zonas mágicas de Dyer. ¡2 ejemplares disponibles de autoayuda inspiracional!"
   },
   {
     "titulo": "Marte Y Venus En La Alcoba ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Marte y Venus en la alcoba de Gray. Último disponible sobre relaciones íntimas."
   },
   {
     "titulo": "Los Hombres Son De Marte Las Mujeres De Venus ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los hombres son de Marte, las mujeres son de Venus de Gray. Último ejemplar disponible del clásico."
   },
   {
     "titulo": "Marte Y Venus 365 ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Marte y Venus 365, consejos diarios para parejas. Último disponible."
   },
   {
     "titulo": "Con Todo Tu Derecho ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Con todo tu derecho, autoafirmación personal. Último ejemplar disponible."
   },
   {
     "titulo": "Los Caballeros Las Prefieren Brutas ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Los caballeros las prefieren brutas. ¡2 ejemplares disponibles de humor y relaciones!"
   },
   {
     "titulo": "Como Tener Una Vida Plena",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo tener una vida plena, felicidad práctica. Último disponible."
   },
   {
     "titulo": "La Vida Es Breve ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La vida es breve, carpe diem literario. Último ejemplar disponible."
   },
   {
     "titulo": "Cartas De Amor A Los Muertos ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cartas de amor a los muertos, narrativa juvenil profunda. Último disponible."
   },
   {
     "titulo": "Boulevard Tomo 1 ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Boulevard tomo 1, romance juvenil contemporáneo. Último ejemplar disponible."
   },
   {
     "titulo": "El Poder De La Hora ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El poder de la hora, gestión del tiempo. Último disponible."
   },
   {
     "titulo": "Piense Y Hagase Rico ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Piense y hágase rico de Hill. ¡Solo $2 por este clásico de superación financiera!"
   },
   {
     "titulo": "Nena Tu Vales Mucho ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Nena, tú vales mucho, autoestima femenina. Último ejemplar disponible."
   },
   {
     "titulo": "Novelas Autoayuda - Walter Rizzo ",
     "precio": 5.0,
-    "stock": 15
+    "stock": 15,
+    "descripcion_comercial": "Novelas de autoayuda de Walter Rizzo. ¡15 ejemplares disponibles a $5 cada uno!"
   },
   {
     "titulo": "La Meta ",
     "precio": 6.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "La meta de Goldratt. ¡3 ejemplares disponibles sobre teoría de restricciones y productividad!"
   },
   {
     "titulo": "El Perfume ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El perfume de Süskind. Último ejemplar disponible de esta novela sensorial única."
   },
   {
     "titulo": "Los 4 Acuerdos ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los 4 acuerdos de Ruiz. Último disponible de sabiduría tolteca aplicada."
   },
   {
     "titulo": "Rica Mente - Kyosaki ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Rica mente de Kiyosaki. Último ejemplar disponible sobre mentalidad financiera."
   },
   {
     "titulo": "El Hombre Mas Rico De Babilonia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El hombre más rico de Babilonia de Clason. Último disponible de finanzas personales clásicas."
   },
   {
     "titulo": "El Negocio Del Siglo 21 ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El negocio del siglo 21 de Kiyosaki. Último ejemplar disponible sobre emprendimiento moderno."
   },
   {
     "titulo": "Padre Rico Padre Pobre ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Padre rico, padre pobre de Kiyosaki. Último disponible del bestseller financiero."
   },
   {
     "titulo": "Inteligencia Emocional ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Inteligencia emocional de Goleman. Último ejemplar disponible del libro que popularizó el concepto."
   },
   {
     "titulo": "El Secreto - Byrne ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El secreto de Byrne. Último disponible de la ley de la atracción."
   },
   {
     "titulo": "Hermano Rico Hermana Rica ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hermano rico, hermana rica de Kiyosaki. Último ejemplar disponible sobre educación financiera femenina."
   },
   {
     "titulo": "Pink Una Rana En Busca ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pink: una rana en busca..., fábula empresarial. Último disponible."
   },
   {
     "titulo": "Descubre Tu Destino ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Descubre tu destino con el Monk que vendió su Ferrari de Sharma. Último ejemplar disponible."
   },
   {
     "titulo": "Perdonen Las Molestias ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Perdonen las molestias de Risto Mejide. Último disponible de marketing y comunicación."
   },
   {
     "titulo": "El Valor De Elegir ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El valor de elegir de Savater. Último ejemplar disponible de filosofía práctica."
   },
   {
     "titulo": "A La Carga ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "A la carga de Blanchard. Último disponible de liderazgo y management."
   },
   {
     "titulo": "Por Favor Vuelve A Casa ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Por favor vuelve a casa. ¡2 ejemplares disponibles de narrativa familiar!"
   },
   {
     "titulo": "Quien Se Ha Llevado Mi Queso ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "¿Quién se ha llevado mi queso? de Johnson. Último ejemplar disponible sobre adaptación al cambio."
   },
   {
     "titulo": "El Caballero De La Armadura Oxidada ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El caballero de la armadura oxidada de Fisher. ¡2 ejemplares disponibles de crecimiento personal!"
   },
   {
     "titulo": "La Culpa Es De La Vaca Para Mujeres ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La culpa es de la vaca para mujeres. Último disponible de anécdotas con perspectiva femenina."
   },
   {
     "titulo": "Cuentos Inocentes ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cuentos inocentes, narrativa simple y profunda. Último ejemplar disponible."
   },
   {
     "titulo": "El Triple Salto ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El triple salto, superación personal. Último disponible."
   },
   {
     "titulo": "Porque Se Fueron Las Garzas ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Porque se fueron las garzas de Izaguirre. Último ejemplar disponible de narrativa ecuatoriana."
   },
   {
     "titulo": "No Salio El Nombre Del Libro",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Libro misterioso, sorpresa literaria. Último disponible a precio especial."
   },
   {
     "titulo": "Coleccion De Chistes ",
     "precio": 6.0,
-    "stock": 10
+    "stock": 10,
+    "descripcion_comercial": "Colección de chistes. ¡10 ejemplares disponibles a $6 cada uno! Risa garantizada."
   },
   {
     "titulo": "Amorfinos Y Coplas Populares ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Amorfinos y coplas populares, poesía tradicional. Último ejemplar disponible."
   },
   {
     "titulo": "Rebelion En La Granja ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Rebelión en la granja de Orwell. Último disponible de sátira política animal."
   },
   {
     "titulo": "Mi Lucha Hitler ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mi lucha de Hitler. Último ejemplar disponible como documento histórico (solo estudio)."
   },
   {
     "titulo": "Toda Mafalda ",
     "precio": 9.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Toda Mafalda de Quino. Último disponible de la niña filósofa que cuestionó el mundo."
   },
   {
     "titulo": "Violeta ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Violeta de Allende. Último ejemplar disponible de la nueva novela de Isabel Allende."
   },
   {
     "titulo": "Claraboya ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Claraboya de Saramago. Último disponible de la novela temprana del Nobel portugués."
   },
   {
     "titulo": "El Viaje Del Elefante ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El viaje del elefante de Saramago. Último ejemplar disponible de narrativa histórica."
   },
   {
     "titulo": "La Loma Del Angel ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La loma del ángel. ¡Gratis por tiempo limitado! Novela cubana clásica."
   },
   {
     "titulo": "La Colmena ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La colmena de Cela. Último disponible del retrato social de la posguerra española."
   },
   {
     "titulo": "Hija De La Fortuna ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Hija de la fortuna de Allende. Último ejemplar disponible de aventura y amor en la fiebre del oro."
   },
   {
     "titulo": "Dulce Maria - Poesia ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Dulce María - Poesía, lírica cubana. Último disponible de la destacada poetisa."
   },
   {
     "titulo": "Por Las Ideas Del Moncada ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Por las ideas del Moncada, testimonio revolucionario cubano. Último ejemplar disponible."
   },
   {
     "titulo": "Antologia Visual ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Antología visual, arte y literatura combinados. Último disponible."
   },
   {
     "titulo": "Centenario De La Revolucion De Octubre ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Centenario de la Revolución de Octubre. ¡Gratis por conmemoración histórica!"
   },
   {
     "titulo": "Cronologia De Los Descubrimientos ",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cronología de los descubrimientos, historia de la ciencia. Último ejemplar disponible."
   },
   {
     "titulo": "Estancias Y Sonetos Roman A Guayaquil ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Estancias y sonetos roman a Guayaquil, poesía ciudadana. Último disponible."
   },
   {
     "titulo": "Medardo Angel Silva",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Medardo Angel Silva, poeta guayaquileño. Último ejemplar disponible del modernista ecuatoriano."
   },
   {
     "titulo": "Breve Historia De Cuba ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Breve historia de Cuba, síntesis nacional. Último disponible."
   },
   {
     "titulo": "El Libro De Mama Dos Tomos ",
     "precio": 8.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "El libro de mamá en 2 tomos. ¡3 colecciones completas disponibles a $8 cada una!"
   },
   {
     "titulo": "Confesiones De Fraile - Terrorismo Contra Cuba ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Confesiones de fraile: terrorismo contra Cuba. Último ejemplar disponible de denuncia documentada."
   },
   {
     "titulo": "Recuerdos En Rafaga ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Recuerdos en ráfaga, memorias fragmentadas. Último disponible."
   },
   {
     "titulo": "Consulta Medica ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Consulta médica, guía de salud. ¡2 ejemplares disponibles a $5 cada uno!"
   },
   {
     "titulo": "La Romeria Del Poeta A Guayaquil ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La romería del poeta a Guayaquil, homenaje literario. Último ejemplar disponible."
   },
   {
     "titulo": "Horas Sociales Y Civicas ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Horas sociales y cívicas, formación ciudadana. Último disponible."
   },
   {
     "titulo": "La Sexta Isla ",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La sexta isla, narrativa cubana. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Talento Se Hereda O Se Adquiere ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El talento: ¿se hereda o se adquiere? debate naturaleza vs crianza. Último ejemplar disponible."
   },
   {
     "titulo": "Droga Y Mentira Dos Agresiones Contra Cuba ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Droga y mentira: dos agresiones contra Cuba. ¡2 ejemplares disponibles de análisis político!"
   },
   {
     "titulo": "La Pareja De Hoy Y Su Sexualidad ",
     "precio": 3.0,
-    "stock": 3
+    "stock": 3,
+    "descripcion_comercial": "La pareja de hoy y su sexualidad. ¡3 ejemplares disponibles a $3 cada uno!"
   },
   {
     "titulo": "Un Grano De Maiz ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Un grano de maíz, conversaciones con Fidel Castro. Último disponible."
   },
   {
     "titulo": "Los Andes Patrimonio Vivo ($70)",
     "precio": 25.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los Andes patrimonio vivo (original $70). ¡Ahora solo $25! Obra fotográfica espectacular."
   },
   {
     "titulo": "Poemas De Amor ",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Poemas de amor. ¡Gratis por el día del amor y la amistad!"
   },
   {
     "titulo": "Alta Tecnologia Nuevo Poder ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Alta tecnología nuevo poder, futuro y sociedad. Último ejemplar disponible."
   },
   {
     "titulo": "Cocina Erotica ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Cocina erótica. ¡2 ejemplares disponibles para cenas sensuales!"
   },
   {
     "titulo": "A La Cubana - Recetas De Cocina Tradicional ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "A la cubana: recetas de cocina tradicional. ¡2 ejemplares disponibles de gastronomía caribeña!"
   },
   {
     "titulo": "Mi Pequeña Enciclopedia De Cocina ",
     "precio": 10.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Mi pequeña enciclopedia de cocina. ¡2 ejemplares disponibles a $10 cada uno!"
   },
   {
     "titulo": "Fiebre De Invierno ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Fiebre de invierno, narrativa atmosférica. Último ejemplar disponible."
   },
   {
     "titulo": "Diodati, Idiota",
     "precio": 0.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diodati, idiota. ¡Gratis por humor literario absurdo!"
   },
   {
     "titulo": "Neruda Retrato De Familia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Neruda: retrato de familia, vida íntima del poeta. Último disponible."
   },
   {
     "titulo": "Un Final Perfecto ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Un final perfecto, thriller psicológico. Último ejemplar disponible."
   },
   {
     "titulo": "Assanssins Creed ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Assassin's Creed, novela del videojuego. Último disponible para gamers y lectores."
   },
   {
     "titulo": "Juegos De La Edad Tardia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Juegos de la edad tardía, madurez y reflexión. Último ejemplar disponible."
   },
   {
     "titulo": "Diccionario Esencial De Las Ciencias ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Diccionario esencial de las ciencias, referencia académica. Último disponible."
   },
   {
     "titulo": "Mi Primera Biblia ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mi primera Biblia, religión para niños. Último ejemplar disponible."
   },
   {
     "titulo": "Disfraces ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Disfraces, manual de creación de vestuarios. Último disponible."
   },
   {
     "titulo": "Sueños (Pintar)",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sueños para pintar, arte terapia. ¡Solo $2 por relajación creativa!"
   },
   {
     "titulo": "Zen (Pintar)",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Zen para pintar, meditación a través del arte. ¡Solo $2!"
   },
   {
     "titulo": "Los Genios De La Pintura ",
     "precio": 10.0,
-    "stock": 5
+    "stock": 5,
+    "descripcion_comercial": "Los genios de la pintura. ¡5 ejemplares disponibles a $10 cada uno! Historia del arte accesible."
   },
   {
     "titulo": "Las Mitas En La Real Audiencia De Quito ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Las mitas en la Real Audiencia de Quito, estudio histórico colonial. Último ejemplar disponible."
   },
   {
     "titulo": "Adulterio ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Adulterio de Coelho. Último disponible sobre crisis marital y renovación."
   },
   {
     "titulo": "Luces De Agosto ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Luces de agosto de Faulkner. Último ejemplar disponible del Nobel estadounidense."
   },
   {
     "titulo": "Papillon ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Papillon de Charrière. Último disponible del clásico de fuga y supervivencia."
   },
   {
     "titulo": "Ecuador Identidad O Esquizofrenia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador: identidad o esquizofrenia, análisis nacional. Último ejemplar disponible."
   },
   {
     "titulo": "Plantaciones Forestales ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Plantaciones forestales, silvicultura práctica. Último disponible."
   },
   {
     "titulo": "Las Fabulas De Esopo (Completa) ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Las fábulas de Esopo completa, edición integral. Último ejemplar disponible."
   },
   {
     "titulo": "Psicologia Oscura ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Psicología oscura, mecanismos de manipulación. Último disponible."
   },
   {
     "titulo": "Piratas En El Golfo ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Piratas en el golfo, aventura marítima. Último ejemplar disponible."
   },
   {
     "titulo": "Resetea Tu Mente ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Resetea tu mente, renovación mental. Último disponible."
   },
   {
     "titulo": "Espejos ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Espejos de Galeano. Último ejemplar disponible de microhistorias del mundo."
   },
   {
     "titulo": "Curacion Cuantica ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Curación cuántica, medicina alternativa. Último disponible."
   },
   {
     "titulo": "Lecturas Y Rupturas ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lecturas y rupturas, crítica literaria. Último ejemplar disponible."
   },
   {
     "titulo": "De Mi Para Mi ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "De mi para mi, diario íntimo publicado. Último disponible."
   },
   {
     "titulo": "Sincrodestino ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Sincrodestino de Chopra. Último ejemplar disponible sobre coincidencias significativas."
   },
   {
     "titulo": "Protagonistas De La Historia Universal ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Protagonistas de la historia universal, biografías clave. Último disponible."
   },
   {
     "titulo": "Burlar Al Diablo ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Burlar al diablo de Hill. Último ejemplar disponible del manuscrito perdido."
   },
   {
     "titulo": "Todo Esta Jodido",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Todo está jodido de Manson. Último disponible de filosofía práctica y pesimismo optimista."
   },
   {
     "titulo": "El Anatomista ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El anatomista, novela histórica médica. Último ejemplar disponible."
   },
   {
     "titulo": "El Festin Del Petroleo ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El festín del petróleo, análisis económico-político. Último disponible."
   },
   {
     "titulo": "El Planeta De Los Simios ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El planeta de los simios de Boulle. Último ejemplar disponible de la sátira sci-fi original."
   },
   {
     "titulo": "Mandalas - Antiestres ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Mandalas antiestrés. ¡2 ejemplares disponibles para relajación creativa!"
   },
   {
     "titulo": "Ecuador Megadiverso ",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador megadiverso, orgullo nacional natural. Último disponible."
   },
   {
     "titulo": "Usted Puede Sanar Su Vida",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Usted puede sanar su vida de Hay. Último ejemplar disponible de sanación holística."
   },
   {
     "titulo": "Como Mandar A La Mierda De Forma Educada ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Cómo mandar a la mierda de forma educada, asertividad con humor. Último disponible."
   },
   {
     "titulo": "El Festin Del Petroleo (Jaime Galarza) (Actualizada)",
     "precio": 12.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El festín del petróleo de Galarza (actualizada). Último ejemplar disponible de la edición revisada."
   },
   {
     "titulo": "Ficciones ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ficciones de Borges. Último disponible del libro que revolucionó la literatura latinoamericana."
   },
   {
     "titulo": "Manuela ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Manuela, la libertadora del Libertador. ¡Solo $2 por esta novela histórica!"
   },
   {
     "titulo": "El Arte De Amar ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El arte de amar de Fromm. ¡Solo $2 por teoría del amor maduro!"
   },
   {
     "titulo": "Resumen De La Historia Del Ecuador ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Resumen de la historia del Ecuador. ¡2 ejemplares disponibles para conocimiento nacional!"
   },
   {
-    "titulo": "Carta A Un Niño Que Nunca Nacio ",
+    "titulo": "Carta A Un Niño Que Nunca Nacion ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Carta a un niño que nunca nació de Fallaci. ¡Solo $2 por este drama existencial!"
   },
   {
     "titulo": "Borrador ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Borrador, proceso creativo literario. Último ejemplar disponible."
   },
   {
     "titulo": "Copia En Limpio ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Copia en limpio, versión final. Último disponible como complemento de 'Borrador'."
   },
   {
     "titulo": "El Pensamiento Vivo - Gandhi ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El pensamiento vivo de Gandhi. Último ejemplar disponible de filosofía no violenta."
   },
   {
     "titulo": "En Breve Historia Contemporanea Del Ecuador ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Breve historia contemporánea del Ecuador. Último disponible de siglo XX nacional."
   },
   {
     "titulo": "Aura O Las Violetas ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Aura o las violetas, poesía romántica. Último ejemplar disponible."
   },
   {
     "titulo": "Necronomicon ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Necronomicón, ficción lovecraftiana. Último disponible para fans del horror cósmico."
   },
   {
     "titulo": "La Magia Del Poder Psicotronico ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La magia del poder psicotrónico, mente y energía. Último ejemplar disponible."
   },
   {
     "titulo": "El Señor Presidente ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El señor presidente de Asturias. ¡Solo $2 por la novela del dictador latinoamericano!"
   },
   {
     "titulo": "Facetas De Nuestra Historia ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Facetas de nuestra historia, múltiples perspectivas nacionales. Último disponible."
   },
   {
     "titulo": "Ecuador En La Mira ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecuador en la mira, análisis geoestratégico. Último ejemplar disponible."
   },
   {
     "titulo": "Mea Cuba",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Mea Cuba de Cabrera Infante. Último disponible del escritor cubano exiliado."
   },
   {
     "titulo": "De Animales A Dioses ",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "De animales a dioses de Harari. Último ejemplar disponible de la breve historia de la humanidad."
   },
   {
     "titulo": "La Busca ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "La busca de Baroja. Último disponible de la trilogía 'La lucha por la vida'."
   },
   {
     "titulo": "Los Reyes Del Mambo ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Los reyes del mambo de Hijuelos. Último ejemplar disponible de novela musical cubano-americana."
   },
   {
     "titulo": "Dichos Y Refranes Adivinanzas Chistes Trabalenguas ",
     "precio": 2.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Dichos, refranes, adivinanzas, chistes, trabalenguas. ¡Solo $2 por folklore divertido!"
   },
   {
     "titulo": "Manual Educacion Ambiental ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Manual de educación ambiental. ¡2 ejemplares disponibles para conciencia ecológica!"
   },
   {
     "titulo": "Parques Humanos ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Parques humanos, ecología y sociedad. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Filos Presocraticos 1 ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Filósofos presocráticos 1, orígenes del pensamiento occidental. Último ejemplar disponible."
   },
   {
     "titulo": "Filos Socrates ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Filósofos: Sócrates. ¡2 ejemplares disponibles del padre de la filosofía occidental!"
   },
   {
     "titulo": "Filos Romana ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Filosofía romana. ¡2 ejemplares disponibles de pensamiento clásico!"
   },
   {
     "titulo": "Filos Patristica ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Filosofía patrística. ¡2 ejemplares disponibles de pensamiento cristiano temprano!"
   },
   {
     "titulo": "Filos Escolastica ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Filosofía escolástica. ¡2 ejemplares disponibles de filosofía medieval!"
   },
   {
     "titulo": "Odino ",
     "precio": 3.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Odino, mitología nórdica. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Teogonia ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Teogonía de Hesíodo. ¡2 ejemplares disponibles de mitología griega clásica!"
   },
   {
     "titulo": "Fiestas Romanas ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Fiestas romanas, cultura clásica. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Duelo ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El duelo, ritual y honor. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Discurso Del Metodo ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El discurso del método de Descartes. ¡2 ejemplares disponibles del racionalismo moderno!"
   },
   {
     "titulo": "El Cantar Del Cid ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El cantar del Mío Cid. ¡2 ejemplares disponibles de épica medieval española!"
   },
   {
     "titulo": "Si Los Humanismo ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Si los humanismo, renacimiento cultural. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Elogio De La Locura ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Elogio de la locura de Erasmo. Último ejemplar disponible de sátira humanista."
   },
   {
     "titulo": "Meditaciones Metafisicas ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Meditaciones metafísicas de Descartes. ¡2 ejemplares disponibles de filosofía fundamental!"
   },
   {
     "titulo": "Filos Presocraticos Ii Ed.",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Filósofos presocráticos II edición. ¡2 ejemplares disponibles de pensamiento antiguo!"
   },
   {
     "titulo": "Cronicas Del Papirri",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Crónicas del Papirri, humor y actualidad. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Genesis ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Génesis, libro bíblico. ¡2 ejemplares disponibles de texto fundacional!"
   },
   {
     "titulo": "Sexismo Lingüistico ",
     "precio": 6.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Sexismo lingüístico, lenguaje inclusivo. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Gran Diluvio ",
     "precio": 7.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El gran diluvio, mitología universal. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "La Biblia Nos Habla Hoy ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "La Biblia nos habla hoy, interpretación contemporánea. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "El Museo Del Apocalipsis ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El museo del Apocalipsis, escatología. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Opera Omnia Tomo 1 Proceso Y Muerte",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Opera Omnia Tomo 1: Proceso y muerte. ¡2 ejemplares disponibles de obra completa!"
   },
   {
     "titulo": "Luces De Agosto ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Luces de agosto de Faulkner. Último disponible del maestro del modernismo sureño."
   },
   {
     "titulo": "El Primer Ateo ",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El primer ateo, historia del ateísmo. ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Opera Omnia Tomo 6 La Lirica ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 6: La lírica. Último ejemplar disponible."
   },
   {
     "titulo": "El Arte De Amar ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El arte de amar (edición especial). ¡2 ejemplares disponibles!"
   },
   {
     "titulo": "Opera Omnia Tomo 7 Atlantida ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 7: Atlántida. Último disponible sobre el mito perdido."
   },
   {
     "titulo": "Opera Omnia Tomo 10 Espurias ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 10: Espurias. Último ejemplar disponible."
   },
   {
     "titulo": "Opera Omnia Tomo Cuatro La Virtud ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 4: La virtud. Último disponible de ética clásica."
   },
   {
     "titulo": "Omnia Tomo 5 La Retorica ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 5: La retórica. Último ejemplar disponible de arte persuasivo."
   },
   {
     "titulo": "Opera Ovnia Tomo 3 El Amor ",
     "precio": 7.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 3: El amor. Último disponible sobre filosofía del amor."
   },
   {
     "titulo": "Fisica ",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Física, texto general. ¡2 ejemplares disponibles para estudiantes de ciencias!"
   },
   {
     "titulo": "Omnia Tomo Dos El Conocimiento ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 2: El conocimiento. Último ejemplar disponible de epistemología."
   },
   {
     "titulo": "Opera Omnia Tomo 8 La Republica ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 8: La república. Último disponible de teoría política."
   },
   {
     "titulo": "Operaomnia Tomo 9 Las Leyes ",
     "precio": 9.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Opera Omnia Tomo 9: Las leyes. Último ejemplar disponible de filosofía jurídica."
   },
   {
     "titulo": "Metamorfosis ",
     "precio": 9.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Metamorfosis de Ovidio. Último disponible de mitología clásica en verso."
   },
   {
     "titulo": "Andersen La Reina De Las Nieves Y Otros Cuentos ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Andersen: La reina de las nieves y otros cuentos. Último ejemplar disponible del danés universal."
   },
   {
     "titulo": "Ecce Homo ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ecce homo de Nietzsche. Último disponible de autobiografía filosófica."
   },
   {
     "titulo": "Fabulas De La Fontaine (Las) ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Fábulas de La Fontaine. ¡2 ejemplares disponibles de moralidad animal francesa!"
   },
   {
     "titulo": "Fabulas De Perrault (Last)",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Fábulas de Perrault. ¡2 ejemplares disponibles de cuentos de hadas clásicos!"
   },
   {
     "titulo": "Fantasma De Canterville (El)",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "El fantasma de Canterville de Wilde. ¡2 ejemplares disponibles de humor gótico!"
   },
   {
     "titulo": "Grimm 8 Caperucita Roja ",
     "precio": 4.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Grimm: Caperucita Roja y otros. ¡2 ejemplares disponibles de cuentos tradicionales alemanes!"
   },
   {
     "titulo": "Mil Y Una Noches (Las)",
     "precio": 8.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Las mil y una noches. ¡2 ejemplares disponibles de narrativa árabe clásica!"
   },
   {
     "titulo": "Pinocho ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Pinocho de Collodi. ¡2 ejemplares disponibles del clásico de crecimiento moral!"
   },
   {
     "titulo": "3 Obras Selectas ",
     "precio": 4.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "3 obras selectas, antología diversa. Último ejemplar disponible."
   },
   {
     "titulo": "Divina Comedia 3 Tomos ",
     "precio": 15.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Divina Comedia en 3 tomos de Dante. Último disponible de la obra cumbre medieval."
   },
   {
     "titulo": "Purgatorio ",
     "precio": 5.0,
-    "stock": 2
+    "stock": 2,
+    "descripcion_comercial": "Purgatorio de Dante. ¡2 ejemplares disponibles de la segunda parte de la Comedia!"
   },
   {
     "titulo": "Anima Aristoteles ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Anima de Aristóteles. Último ejemplar disponible de psicología filosófica antigua."
   },
   {
     "titulo": "Lupus ",
     "precio": 5.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Lupus, enfermedad y salud. Último disponible."
   },
   {
     "titulo": "Problemas Eterno ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Problemas eternos, filosofía perenne. Último ejemplar disponible."
   },
   {
     "titulo": "Kadesh ",
     "precio": 6.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Kadesh, narrativa histórica bíblica. Último disponible."
   },
   {
     "titulo": "Geometria Analitica - Lehman",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Geometría analítica de Lehmann. Último ejemplar disponible del clásico matemático."
   },
   {
     "titulo": "Solucionario Geometria - Lehman",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Solucionario de geometría de Lehmann. Último disponible como complemento perfecto."
   },
   {
     "titulo": "Historia Universal Para Todos ",
     "precio": 5.0,
-    "stock": 7
+    "stock": 7,
+    "descripcion_comercial": "Historia universal para todos. ¡7 ejemplares disponibles a $5 cada uno! Panorama mundial accesible."
   },
   {
     "titulo": "Enciclopedia Basica Escolar ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Enciclopedia básica escolar, conocimiento general infantil. Último ejemplar disponible."
   },
   {
     "titulo": "Angamarca ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Angamarca, toponimia e historia local. Último disponible."
   },
   {
     "titulo": "Encuentro Con Fidel ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Encuentro con Fidel, entrevistas al líder cubano. Último ejemplar disponible."
   },
   {
     "titulo": "El Bogotazo: Memorias Del Olvido  ",
     "precio": 10.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "El Bogotazo: memorias del olvido, historia colombiana. Último disponible."
   },
   {
     "titulo": "Ñacahuazu A La Higuera ",
     "precio": 8.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Ñacahuazu a la Higuera, ruta del Che. Último ejemplar disponible del recorrido guerrillero."
   },
   {
     "titulo": "Pecho Paramo Y El Llano En Llamas ",
     "precio": 3.0,
-    "stock": 1
+    "stock": 1,
+    "descripcion_comercial": "Pedro Páramo y El llano en llamas de Rulfo. Último disponible del maestro mexicano."
   }
 ]
