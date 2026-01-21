@@ -7,22 +7,15 @@
 
 <style>
 :root{
-  --bg:#f2f4f8;
+  --bg:#f3f4f6;
   --card:#ffffff;
   --text:#111827;
-  --sub:#555;
+  --sub:#4b5563;
   --primary:#2563eb;
 }
-.dark{
-  --bg:#0f172a;
-  --card:#1e293b;
-  --text:#f9fafb;
-  --sub:#cbd5f5;
-}
-
 body{
   margin:0;
-  font-family:'Segoe UI', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   background:var(--bg);
   color:var(--text);
 }
@@ -34,84 +27,74 @@ header{
 }
 
 .container{
-  max-width:1200px;
+  max-width:1300px;
   margin:auto;
   padding:20px;
 }
 
-.controls{
-  display:grid;
-  grid-template-columns:1fr 1fr auto;
-  gap:10px;
-  margin-bottom:25px;
-}
-
-input,select{
-  padding:12px;
-  border-radius:8px;
-  border:1px solid #ccc;
-  font-size:14px;
-}
-
-button{
-  padding:12px;
-  border:none;
-  border-radius:8px;
-  background:var(--primary);
-  color:white;
-  cursor:pointer;
-}
-
 .grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill,minmax(240px,1fr));
-  gap:20px;
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+  gap:22px;
 }
 
 .card{
   background:var(--card);
   border-radius:14px;
-  box-shadow:0 8px 20px rgba(0,0,0,.08);
+  box-shadow:0 10px 25px rgba(0,0,0,.08);
   overflow:hidden;
   display:flex;
   flex-direction:column;
   transition:.3s;
 }
-.card:hover{
-  transform:translateY(-6px);
-}
+.card:hover{ transform:translateY(-6px); }
 
 .card img{
-  height:300px;
+  height:320px;
+  width:100%;
   object-fit:cover;
   background:#e5e7eb;
 }
 
 .info{
-  padding:15px;
+  padding:14px;
   flex:1;
 }
 
-.card h3{
+.info h3{
   font-size:16px;
   margin:0 0 6px;
 }
 
-.card .genero{
-  font-size:13px;
-  color:var(--primary);
-  font-weight:600;
-}
-
-.card .descripcion{
+.descripcion{
   font-size:14px;
   color:var(--sub);
-  margin-top:8px;
+  margin:8px 0;
+}
+
+.precio{
+  font-size:17px;
+  font-weight:bold;
+  color:#16a34a;
+}
+
+.stock{
+  font-size:13px;
+  margin-top:4px;
+}
+
+.sin-stock{
+  color:#dc2626;
 }
 
 .card button{
   margin:15px;
   background:#25D366;
+  color:white;
+  border:none;
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
 }
 
 footer{
@@ -126,28 +109,16 @@ footer{
 <body>
 
 <header>
-  <div style="max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center;">
-    <div style="display:flex;gap:15px;align-items:center;">
-      <img src="logo.png" style="width:55px">
-      <div>
-        <h2 style="margin:0">El Placer de la Lectura</h2>
-        <small>Catálogo de libros</small>
-      </div>
+  <div style="max-width:1300px;margin:auto;display:flex;align-items:center;gap:15px;">
+    <img src="logo.png" style="width:55px">
+    <div>
+      <h2 style="margin:0">El Placer de la Lectura</h2>
+      <small>Catálogo de libros</small>
     </div>
-    <button onclick="toggleDark()">🌙</button>
   </div>
 </header>
 
 <div class="container">
-
-  <div class="controls">
-    <input id="search" placeholder="Buscar libro por título">
-    <select id="genero">
-      <option value="">Todos los géneros</option>
-    </select>
-    <button onclick="aplicarFiltros()">Filtrar</button>
-  </div>
-
   <div class="grid" id="catalogo"></div>
 </div>
 
@@ -157,26 +128,14 @@ footer{
 
 <script>
 const telefono="593979255932";
-let libros=[];
 let cachePortadas={};
 
-/* ---------- MODO OSCURO ---------- */
-if(localStorage.dark==="true") document.body.classList.add("dark");
-function toggleDark(){
-  document.body.classList.toggle("dark");
-  localStorage.dark=document.body.classList.contains("dark");
-}
-
-/* ---------- CARGA JSON ---------- */
+/* --------- CARGA JSON --------- */
 fetch("catalogo_libros.json")
   .then(r=>r.json())
-  .then(data=>{
-    libros=data;
-    cargarGeneros();
-    mostrar(libros);
-  });
+  .then(data=>mostrar(data));
 
-/* ---------- UTILIDADES ---------- */
+/* --------- UTILIDADES --------- */
 function limpiarTitulo(t){
   return t
     .replace(/[-–].*/g,"")
@@ -188,93 +147,81 @@ function placeholder(t){
   return `https://dummyimage.com/400x600/1e293b/ffffff&text=${encodeURIComponent(t.slice(0,30))}`;
 }
 
-/* ---------- PORTADAS ---------- */
-function obtenerPortada(libro,img){
-  const titulo=limpiarTitulo(libro.titulo);
+/* --------- PORTADAS (MAXIMIZADO) --------- */
+function obtenerPortada(titulo,img){
+  const limpio=limpiarTitulo(titulo);
 
-  if(cachePortadas[titulo]){
-    img.src=cachePortadas[titulo];
+  if(cachePortadas[limpio]){
+    img.src=cachePortadas[limpio];
     return;
   }
 
-  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
+  // 1️⃣ OpenLibrary
+  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(limpio)}`)
     .then(r=>r.json())
     .then(d=>{
-      if(d.docs?.[0]?.cover_i){
+      if(d.docs && d.docs[0] && d.docs[0].cover_i){
         const url=`https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
-        cachePortadas[titulo]=url;
+        cachePortadas[limpio]=url;
         img.src=url;
       }else{
-        portadaGoogle(titulo,img);
+        googleFallback(limpio,img);
       }
     })
-    .catch(()=>portadaGoogle(titulo,img));
+    .catch(()=>googleFallback(limpio,img));
 }
 
-function portadaGoogle(titulo,img){
+function googleFallback(titulo,img){
+  // 2️⃣ Google Books
   fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`)
     .then(r=>r.json())
     .then(d=>{
       const url=d.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-      img.src=url?url.replace("zoom=1","zoom=2"):placeholder(titulo);
+      img.src=url ? url.replace("zoom=1","zoom=2") : placeholder(titulo);
       cachePortadas[titulo]=img.src;
     })
     .catch(()=>img.src=placeholder(titulo));
 }
 
-/* ---------- RENDER ---------- */
-function mostrar(lista){
+/* --------- RENDER --------- */
+function mostrar(libros){
   const cont=document.getElementById("catalogo");
   cont.innerHTML="";
-  lista.forEach(l=>{
+
+  libros.forEach(l=>{
     const card=document.createElement("div");
     card.className="card";
 
     const img=document.createElement("img");
     img.loading="lazy";
-    obtenerPortada(l,img);
+    obtenerPortada(l.titulo,img);
 
     const info=document.createElement("div");
     info.className="info";
     info.innerHTML=`
       <h3>${l.titulo}</h3>
-      <div class="genero">${l.genero}</div>
       <div class="descripcion">
         ${l.descripcion_comercial || "Descripción disponible próximamente."}
+      </div>
+      <div class="precio">$${l.precio}</div>
+      <div class="stock ${l.stock > 0 ? "" : "sin-stock"}">
+        ${l.stock > 0 ? "Stock: " + l.stock : "Sin stock"}
       </div>
     `;
 
     const btn=document.createElement("button");
     btn.textContent="Consultar por WhatsApp";
     btn.onclick=()=>window.open(
-      `https://wa.me/${telefono}?text=${encodeURIComponent("Hola, me interesa el libro: "+l.titulo)}`,
+      `https://wa.me/${telefono}?text=${encodeURIComponent(
+        "Hola, me interesa el libro: "+l.titulo+
+        " | Precio: $"+l.precio
+      )}`,
       "_blank"
     );
 
     card.append(img,info,btn);
     cont.appendChild(card);
   });
-}
-
-/* ---------- FILTROS ---------- */
-function cargarGeneros(){
-  const g=[...new Set(libros.map(l=>l.genero))];
-  const s=document.getElementById("genero");
-  g.forEach(x=>{
-    const o=document.createElement("option");
-    o.value=x;
-    o.textContent=x;
-    s.appendChild(o);
-  });
-}
-
-function aplicarFiltros(){
-  const t=document.getElementById("search").value.toLowerCase();
-  const g=document.getElementById("genero").value;
-  mostrar(libros.filter(l=>
-    l.titulo.toLowerCase().includes(t) &&
-    (!g || l.genero===g)
-  ));
 }
 </script>
 
