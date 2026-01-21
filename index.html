@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Catálogo de Libros</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:#f2f4f8;
+}
+header {
+  background:#1e293b;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+.container {
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+.search-box {
+  display:flex;
+  gap:10px;
+  margin-bottom:30px;
+}
+.search-box input {
+  flex:1;
+  padding:14px;
+  font-size:16px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
+.search-box button {
+  padding:14px 20px;
+  font-size:16px;
+  border:none;
+  border-radius:8px;
+  background:#2563eb;
+  color:white;
+  cursor:pointer;
+}
+.search-box button:hover { opacity:0.9; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+  gap:20px;
+}
+.card {
+  background:white;
+  border-radius:14px;
+  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+}
+.card img {
+  height:260px;
+  object-fit:cover;
+  background:#e5e7eb;
+}
+.card .info {
+  padding:15px;
+  flex:1;
+}
+.card h3 {
+  font-size:16px;
+  margin:0 0 10px 0;
+}
+.card p {
+  margin:4px 0;
+  font-size:14px;
+}
+.card button {
+  margin:15px;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  background:#25D366;
+  color:white;
+  font-size:14px;
+  cursor:pointer;
+}
+footer {
+  text-align:center;
+  padding:20px;
+  color:#6b7280;
+  font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📚 Catálogo de Libros</h1>
+  <p>Consulta disponibilidad por WhatsApp</p>
+</header>
+
+<div class="container">
+
+  <div class="search-box">
+    <input id="search" placeholder="Buscar libro por título...">
+    <button onclick="buscar()">🔍 Buscar</button>
+  </div>
+
+  <div class="grid" id="catalogo"></div>
+</div>
+
+<footer>
+  © Catálogo de Libros
+</footer>
+
+<script>
+const telefono = "593XXXXXXXXX"; // CAMBIA TU NÚMERO
+let libros = [];
+
+fetch('catalogo_libros.json')
+.then(r => r.json())
+.then(data => {
+  libros = data;
+  console.log("Libros cargados:", libros.length); // 👈 VERIFICACIÓN
+  mostrar(libros);
+})
+.catch(err => {
+  alert("Error cargando catalogo_libros.json");
+  console.error(err);
+});
+
+function limpiar(texto) {
+  return texto
+    .toLowerCase()
+    .replace(/\s+/g, ' ')   // elimina espacios dobles
+    .trim();
+}
+
+function portada(titulo) {
+  return `https://covers.openlibrary.org/b/title/${encodeURIComponent(titulo)}-L.jpg`;
+}
+
+function mostrar(lista) {
+  const cont = document.getElementById('catalogo');
+
+  if (lista.length === 0) {
+    cont.innerHTML = "<p>No se encontraron resultados</p>";
+    return;
+  }
+
+  cont.innerHTML = lista.map(l => `
+    <div class="card">
+      <img src="${portada(l.titulo)}"
+           onerror="this.src='https://via.placeholder.com/300x450?text=Libro'">
+      <div class="info">
+        <h3>${l.titulo}</h3>
+        <p><b>Precio:</b> $${l.precio}</p>
+        <p><b>Stock:</b> ${l.stock}</p>
+      </div>
+      <button onclick="whatsapp('${l.titulo}', ${l.precio})">
+        Consultar por WhatsApp
+      </button>
+    </div>
+  `).join('');
+}
+
+function buscar() {
+  const texto = limpiar(document.getElementById('search').value);
+
+  if (texto === "") {
+    mostrar(libros);
+    return;
+  }
+
+  const filtrados = libros.filter(l =>
+    limpiar(l.titulo).includes(texto)
+  );
+
+  mostrar(filtrados);
+}
+
+document.getElementById('search').addEventListener('keydown', e => {
+  if (e.key === 'Enter') buscar();
+});
+
+function whatsapp(titulo, precio) {
+  const msg = `Hola, estoy interesado en el libro: ${titulo} (Precio: $${precio})`;
+  window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(msg)}`, '_blank');
+}
+</script>
+
+</body>
+</html>

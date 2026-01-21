@@ -1,0 +1,3277 @@
+[
+  {
+    "titulo": "Matematicas Discretas",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Trigonometria Schaum",
+    "precio": 8.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Trigonometrias Granville",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Algebra Zill",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Y Trigonoetria Swokowski",
+    "precio": 31.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Derivadas E Integrales",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuaciones Y Matematicos",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Lovaglia",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Algebra Lehmann",
+    "precio": 14.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Algebra Rees - Spaks",
+    "precio": 24.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Gobran",
+    "precio": 17.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebras Wetworth Y Smith",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Geometria Elemental",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Mancill Tomo I",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Algebra Elemental Moderna - Mancill Tomo Ii",
+    "precio": 6.0,
+    "stock": 4
+  },
+  {
+    "titulo": "Aritmetica 1 - Repetto",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Aritmetica 2 - Reppetto",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Aritmetica 1, 2, 3 - Repetto",
+    "precio": 5.0,
+    "stock": 6
+  },
+  {
+    "titulo": "Aritmetica De Baldor - Original",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Aritmetica De Baldor - Copia",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Aritmetica De Baldor - Originales",
+    "precio": 16.0,
+    "stock": 4
+  },
+  {
+    "titulo": "Aritmetica De Baldor - Azul Original",
+    "precio": 18.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Solucionario De Baldor",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra De Baldor - Original Nuevo",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra - Ardura",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Algebra Y Funciones Elementales Kalnin",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Trigonometria De Baldor - Original",
+    "precio": 20.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fundamentos Matematicas 1 - Espol",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fundamentos De Matematicas - Espol",
+    "precio": 34.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geometria Analitica (O Y C) Schaum",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Problemas De Geometria Analitica",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geometria Analitica De Lehmann - Original",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geometria Aanalitica De Lehman - Pasta Suave",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estadistica Schaum - Original",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Analisis Vectorial - Schaum",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quimica Fundamentos",
+    "precio": 28.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quimica Para Todos (Copias)",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Materiales Quimica",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Problemas Quimica General Tbarz - Original",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Vomentatura De Quimica - Caicedo",
+    "precio": 4.0,
+    "stock": 8
+  },
+  {
+    "titulo": "Quimica General - Schaum Y Rosenberg",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quimica General - Armendaris",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Introduccion A La Fisica Tomo I - Maiztegui",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fisica General Schaum - Mercue",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mecanica Vectorial P Ing V I - Nara",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica Tomo I - Araujo",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica Conceptual - Hewitt",
+    "precio": 28.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica Fundamental 1 -Valero",
+    "precio": 12.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fisica Fundamental 2 - Valero",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fundamento De Fisica V2 - Resnick",
+    "precio": 25.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica General - Biblia - Zeransky",
+    "precio": 26.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sistemas Electricos De Potencia",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica General - Albarenga",
+    "precio": 16.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica Mecanica Y Termodinamica",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Calculos De Apostol 2 Tomos",
+    "precio": 24.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo De Granvilla - Original",
+    "precio": 16.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo Schaum - Ayres",
+    "precio": 20.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo Diferencial En 1 Variable - Garcia",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo - Zill",
+    "precio": 34.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo 1 - Tomas",
+    "precio": 30.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Curso Algebra Superior - Kurosch",
+    "precio": 11.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Superior - Bruño",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Superior - Spitgel",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Algebra Superior - Hall",
+    "precio": 14.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Biologia El Mundo De La Vida - Wallace",
+    "precio": 14.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Biologia - Villee",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Biologia - Nason",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Biologia - La Vida Y Sus Procesos",
+    "precio": 18.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Biologia - Villee Completa",
+    "precio": 67.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Biologia - Curtis",
+    "precio": 80.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Biologia - La Vida En La Tierra",
+    "precio": 24.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Higiene De La Cultura Fisica Y Deporte",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ejercicios Fisico Rehabilitacion",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Psiicologia Deportiva",
+    "precio": 12.0,
+    "stock": 3
+  },
+  {
+    "titulo": "El Origen Del Hombre",
+    "precio": 3.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Introduccion A La Ciencia De Los Suelos",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Codigo De La Vida",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Jardineria De Bajo Mantenimiento",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Invernadero",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Hidroterapia",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Masajes Y Aropaterapia",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mediciones Termotecnicas 2 Tomos",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Contabilidad De Costos - Hargadon",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Contabilidad Intermedia - Vasconez",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Contabilidad De Costos - Noe Islas",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Administracion - Almeida",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Microeconomia - Puga",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Shock Del Futuro - Toffler",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Plan Del Ecuador - Carrion",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Pepes - Morales",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador De La No Republica A La No Republica",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Se Hace Una Tesis - Eco",
+    "precio": 5.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Las 48 Leyes Del Poder",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Breve Historia Economica Del Ecuador",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Criminalizacion De La Protesta",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geopolitica De La Amazonia - Garcia",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Concepto",
+    "precio": 6.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Nacho Ecuador",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Nacho Matematicas",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Psicologia De La Enseñanza",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Medico Naturista Opina",
+    "precio": 13.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Motores De Automovil",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Curiosidades",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "New Classic",
+    "precio": 15.0,
+    "stock": 4
+  },
+  {
+    "titulo": "Transferencia De Calor",
+    "precio": 16.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Maquinas Electricas - Kosow",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Las Abejas En La Medicina",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Amargarse La Vida",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pluma Y Pincel",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Humor 2 Tomos",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cristo ¿Mito O Realidad?",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Etica",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia De La Accion Clerical En El Ecuador",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quito Luz De America",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Codicia Insaciable",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Fruta Un Sano Placer",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Gran Revolucion De Las Grasas",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cocinemos Con Kristy Tomos 1 Y 2",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cocinemos Con Kristy Tomo 1 - Original",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Menu Diario Ecuatoriano",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cocina Internacional",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Guia Practica De Medicamentos",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diabetes Millitius",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Dermatologicas",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Superar El Estres",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Liberese Del Dolor De Espalda",
+    "precio": 14.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Farmacologia General",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Relaciones Intimas",
+    "precio": 18.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sexo Hazlo Bien, Hazlo Seguro",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Juguetes Eroticos",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Maravilla Del Amor",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Puta Linda",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sexo ¿Y Ahora Que Hago?",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Tantra",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Y Jesus Amaba A La Mujer",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Volver Loca A La Mujer En La Cama",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Kama - Sutra El Nuevo",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Hacer Feliz A Un Hombre",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Ideas Y Tecnicas",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Hacer El Amor",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Como Lograr Una Vida Sexual",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sexo Tatrico",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Para La Mujer",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Para El Hombre",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Xxx",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Guia Para Mujeres Sobre Hombre Y Sexo",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Memorias De Una Pulga",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Marques De Sade",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Ananga Ranga",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kama Sutra Ananga Ranga",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Manuscrito De Sonia",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Putas Es Poco",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Hacer Bien El Amor - Hamilton",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Enciclopedia Ilustrada Sexologia 3 Tomos",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Antropologia",
+    "precio": 20.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Prehispanico Quito",
+    "precio": 20.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estetica Del Arte Precolombino",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador Prehistorico",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sublebaciones Indigenas",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Identidades Historicas De Los Pueblos Indigenas Del Ecuador",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Profeta Del Pueblo",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Ocaso De Los Idolos",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Asi Hablaba Zaratrusta",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Dos Mundos Superpuestos",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Poder Politico En El Ecuador",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador: De Banana Republic A La No Republica",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Asesinato De Eloy Alfaro",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Guerra Civil Ecuatoriana 1895",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Liberalismo En El Ecuador",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Generales No Corren",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Jose Peralta Y El Liberalismo",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Eloy Alfaro 100 Fasetas Historicas",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fuerza De La Verdad Historica",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Revolucion Politica Durante",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Critica De Las Concepciones No Marcistas",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia De La Filosofia 2 Tomos",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia De Las Doctrinas Economicas",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Manifiesto Del Partido Comunista",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Desarrollo Del Capitalismo",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Desarrollo Humano Y Sustentable",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Ecuador En La Epoco Cacaotera",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Proceso De Dominacion Politica En El Ecuador",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Introduccion A Las Aves Del Ecuador",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Primicias De La Cultura De Quito",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estupidos Hombres Blancos",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "¿Que Han Hecho Con Mi Pais?",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "21 Lecciones",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Festin Del Petroleo",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Simon Bolivar",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Origen De La Vida",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Linares",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador: Una Nacion En Ciernes 3 Tomos",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Logica",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Conflicto Cosmico",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Cia Contra America Latina",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De La Guerra",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "¿Tiene Futuro Dios?",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Mejores Cuentos",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Diario De Ana Frank",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Mejores Chistes Del Mundo Laboral",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Modismos Del Ingles",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Yo Soy El Diego",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estrategias Y Juegos De Dominacion",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Casa Del Jabonero Agd",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Hombre Maquina",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia Del Tiempo",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo Diferencial Integral Gv",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ca------- Descriptiva",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Experimento Teoria Y Practica",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Curso De Fisica General",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Calculo Diferencial Integral",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Manual De La Teoria De Probabilidades",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geometria Analitica De Leman",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mecanica Y Termodinamica (Fisica)",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Ciencia Su Metodo Y Filosofia",
+    "precio": 2.5,
+    "stock": 5
+  },
+  {
+    "titulo": "Teoria Del Conocimiento",
+    "precio": 2.5,
+    "stock": 4
+  },
+  {
+    "titulo": "Contabilidad General Zapata",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Touchst Students 1A -1B",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Yes Ingles - Curso Practico",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Galapagos Acuarelas",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Amar - Ovidio",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Juego Del Camaleon",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Vida Pasion Y Muerte De Eugenio Espejo",
+    "precio": 4.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Rformador Ecuatoriano Augenio Espejo",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Extasia",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Manuela",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Manuela Cañizares",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cartas Intimas Entre Bolivar Y Manuela",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Enigma Y El Espejo",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Discurso Sobre El Origen De Los Hombres",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Banquete",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Escolastica En El Medioevo",
+    "precio": 1.5,
+    "stock": 1
+  },
+  {
+    "titulo": "Meditaciones Metafisicas",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Principe (Nicolas Maquiavelo)",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Constitucion Del Ecuador",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Figuras Historicas",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Juridico Elemental",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Radiografia De Una Traicion",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Noche De Las Cacerolas",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Ultimo Inca Del Taguantinsuyo",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Nueva Historia Del Ecuador (15 Tomos)",
+    "precio": 100.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador Contra La Dependencia",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Robar Al Estado",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Relatos De La Historia De Loja 2 Tomos",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Relatos De La Historia De Loja Tomo 2",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Civiles Mas Militares ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Contratos Petroleros ",
+    "precio": 12.0,
+    "stock": 3
+  },
+  {
+    "titulo": "El Capital - Carlos Marx ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Lenin Socialismo Utopico ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Lenin La Ideologia Y La Cultura Socialista ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Enfermedad Infantil De La Izquierda En El Comunismo ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Elementos Fundamentales Para La Critica ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Dos Mundos Super Opuestos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Montubio Ecuatoriano ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Espectador ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Materialismo Y Empiriocriticismo ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Nausea - Premios Nobel ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Charlas - M. J. Calle ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Don Pedro Moncayo ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Ecuador Un Pais Clasico ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Canal De Panama En Las Guerras Futuras ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Juan Montalvo Entrevista Imaginaria ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Anticristo ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mas Alla Del Bien Y Del Mal ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Voluntad De Poderio ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Discurso Del Metodo ",
+    "precio": 2.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Bolivar Empresario ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Imagen De Brazil En Las Cartas De Bolivar ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cuentos Negros De Cuba ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia De Cuba ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pensar, Prever, Servir ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Una Historia Dentro De La Historia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Identidad Y Formas Del Ecuatoriano ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Santo Del Patibulo Garcia Moreno ",
+    "precio": 30.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Colonialismo Y Soberania ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Por Un Mundo Justo Y Unido ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Che Su Palabra Como Arma De Combate ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Che Sin Enigmas ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Yo Tengo 7 Vidas Che ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Che Guevara ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Che Guevara Biblioteca Historica ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Era El Che",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Edad De Oro Marti ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Otras Mitologias ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Instante Fugitivo ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cuentos London Y Vallejo ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Breve Historia General Del Ecuador ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quienes Mataron A Roldos ",
+    "precio": 12.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Los Hijos De La Tierra ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "100 Años Eloy Alfaro Y Sus Victimarios ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Eloy Alfaro Cubano ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Vida Ejemplar De Simon Bolivar ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Hacha Enterrada ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Novelas - Esqueleto Editorial ",
+    "precio": 3.0,
+    "stock": 29
+  },
+  {
+    "titulo": "Psicologia De Las Multitudes ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Raffles Manos De Seda ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Arte Como Herejia ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sueños Eroticos ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Poder Secreto De Los Sueños ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Flor De Leyendas ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Isla En Peso",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Juicio Del Moncada ",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Loma Del Angel ",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Y Si Fuera Una Huella?",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Testamento ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Codigo Da Vinci La Leyenda Del Santo Grial ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Tu No Vas A Morir ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Maria Magdalena Y El Santo Grial ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Complot De Maria Magdalena ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Pasion De Maria Magdalena ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Simbolo Perdido ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Origen ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Conspiracion ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Inferno ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Codigo Da Vinci Original ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Caballo De Troya Numero 3 ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Caballo De Troya Numero 4",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Caballo De Troya Numero 7 ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Caballo De Troya Numero 6 ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Vida Con El Lama ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Tercer Ojo ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mas Alla Del Decimo ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Tal Como Fue ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "De Veras Los Ovnis Nos Vigilan ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Quirologia ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "A La Escucha De Los Planetas ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Angeles - Como Y Cuando Invocarlos",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Era De Acuario ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Influencia Del Color ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Interpretar Los Sueños ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sanar A Traves De La Oracion ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Confesiones - El Diablo Ilustrado",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Justos Y Pecadores ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Terapia De Vidas Pasadas ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Moderna Quirologia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Confidencias De Un Clarividente ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Fusion De Nuestras Energias ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Poder Curativo De Giokgo",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Masonico Palabra Y Sabiduria ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Hablando Con El Cielo ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Continente Perdido ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Oracion De La Rana ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Poder Secretos De Los Animales ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Adquirir Una Supermemoria",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Documento ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Secretos De Angeles Y Demonios ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Coleccion Antares",
+    "precio": 4.0,
+    "stock": 174
+  },
+  {
+    "titulo": "Coleccion Clasicos De Siempre ",
+    "precio": 1.0,
+    "stock": 176
+  },
+  {
+    "titulo": "Novelas Infanto Juveniles ",
+    "precio": 3.0,
+    "stock": 29
+  },
+  {
+    "titulo": "Carlos Cuauhtemoc Sanchez ",
+    "precio": 3.0,
+    "stock": 28
+  },
+  {
+    "titulo": "Los 3 Mosqueteros ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Jefes Y Los Cachorros ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Leyenda De Hernan ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Casi Magica ",
+    "precio": 5.0,
+    "stock": 3
+  },
+  {
+    "titulo": "El Secreto De Otros Cuentos ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Colmena ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Familia Pascual Duarte ",
+    "precio": 2.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Valle De Las Muñecas ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Administracion ",
+    "precio": 8.0,
+    "stock": 25
+  },
+  {
+    "titulo": "Ajeno A La Tierra ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Lingüistica General ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Tregua ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Juan Salvador Gaviota ",
+    "precio": 2.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Adios A Las Almas ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Profeta ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Velero De Cristal ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Harina Huerfana ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mi Planta Naranja Lima ",
+    "precio": 0.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Vamos A Calentar El Sol ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Reino De Este Mundo ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Memorias De Un Asno ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Maestro Ciruela ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Papel Mojado ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Requiem Para Pedro Navaja ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ojitos De Angel ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Mala Hora Garcia Marquez ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Coronel No Tiene Quien Le Escriba ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "En Agosto Nos Vemos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Funerales De Mama Grande ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ojos De Perro Azul ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ojos De Perro Azul Periodico ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El General En Su Laberinto ",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Vivir Para Contarla ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Otoño Del Patriarca ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Alquimista Escrito En Portugues ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Alquimista En Español ",
+    "precio": 9.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Quinta Montaña ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Brida ",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Aleph",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Sonetos, Fabulas Y Leyendas ",
+    "precio": 0.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Juegos Educativos Interpersonales ",
+    "precio": 0.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Juguemos Mas ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Exito De La Mujer ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ensayo Sobre La Ceguera ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "20000 Leguas De Viaje Submarino ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "2 Años De Vacaciones Julio Verne ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "2 Años De Vacaciones Empastado ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Vuelta Al Mundo En 80 Dias ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Eugenia Grandet ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cuentos Elegidos - London ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Animales Puros ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Viejo Y El Mar ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Los De Abajo ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Crimen Y Castigo ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Ojos Del Perro Siberiano ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Despertar La Sensualidad ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ensayos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Amanecer ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "A Orillas Del Rio Me Sente Y Llore ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Veronica Decide Morir ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "7 Leyes Espirituales Para Padres ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Las 7 Leyes Espirituales Del Exito ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pon Comienzo Magico ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Jamas Moriremos ",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Hijas De La Alegria ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "¿Tiene Futuro Dios?",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fabulas De Esopo 4",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fabulas De Esopo 6 ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pasatiempos",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Psicologo En El Hospital Pediatrico ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Problemas Y Perspectivas Internacionales ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estimulacion Temprana ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Juegos De Pluma ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Llamado De Lo Salvaje ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Lobo De Mar ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Rios Profundos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Ciclo De Las Luces ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Torotumbo ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cuentos Memorables Borges",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Educacion Civica ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Gramatica Española ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ortografia Para Todos ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Aristos ",
+    "precio": 3.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Multidiccionario ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Vocabulario Tecnico Cientifico ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ortografia De La Lengua Española ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Gran Diccionario De Sinonimos Y Antonimos ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Sinanimos Y Antonimos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario De Ciencias ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ejercicios Latinos ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Ingles Castellano ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Enciclopedico Basico ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Ingrese Español Español Ingles ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Portugues Español ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Western American English ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Chambers ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Pocke English ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Español Ingles Espasa ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Compact Español Aleman ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Ruso Ingles ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Por Que Estas Aqui ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Mil Razones Para Quedarme ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Si Es Contigo ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cazadores De Sombras ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Impaciencia Del Corazon ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Yo Estoy Bien Tu Estas Bien ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Que Dice Usted Despues De Decir Hola",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cancion Triste De Cualquier Mujer ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mensajes Inspirados Para La Vida Diaria ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Vencer La Timidez ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "No Digas Si Cuando Quieras Decir No ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Depresion ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Tus Zonas Magicas ",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Marte Y Venus En La Alcoba ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Hombres Son De Marte Las Mujeres De Venus ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Marte Y Venus 365 ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Con Todo Tu Derecho ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Caballeros Las Prefieren Brutas ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Como Tener Una Vida Plena",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Vida Es Breve ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cartas De Amor A Los Muertos ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Boulevard Tomo 1 ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Poder De La Hora ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Piense Y Hagase Rico ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Nena Tu Vales Mucho ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Novelas Autoayuda - Walter Rizzo ",
+    "precio": 5.0,
+    "stock": 15
+  },
+  {
+    "titulo": "La Meta ",
+    "precio": 6.0,
+    "stock": 3
+  },
+  {
+    "titulo": "El Perfume ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los 4 Acuerdos ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Rica Mente - Kyosaki ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Hombre Mas Rico De Babilonia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Negocio Del Siglo 21 ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Padre Rico Padre Pobre ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Inteligencia Emocional ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Secreto - Byrne ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Hermano Rico Hermana Rica ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pink Una Rana En Busca ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Descubre Tu Destino ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Perdonen Las Molestias ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Valor De Elegir ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "A La Carga ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Por Favor Vuelve A Casa ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Quien Se Ha Llevado Mi Queso ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Caballero De La Armadura Oxidada ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Culpa Es De La Vaca Para Mujeres ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cuentos Inocentes ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Triple Salto ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Porque Se Fueron Las Garzas ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "No Salio El Nombre Del Libro",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Coleccion De Chistes ",
+    "precio": 6.0,
+    "stock": 10
+  },
+  {
+    "titulo": "Amorfinos Y Coplas Populares ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Rebelion En La Granja ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mi Lucha Hitler ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Toda Mafalda ",
+    "precio": 9.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Violeta ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Claraboya ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Viaje Del Elefante ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Loma Del Angel ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Colmena ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Hija De La Fortuna ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Dulce Maria - Poesia ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Por Las Ideas Del Moncada ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Antologia Visual ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Centenario De La Revolucion De Octubre ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cronologia De Los Descubrimientos ",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Estancias Y Sonetos Roman A Guayaquil ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Medardo Angel Silva",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Breve Historia De Cuba ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Libro De Mama Dos Tomos ",
+    "precio": 8.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Confesiones De Fraile - Terrorismo Contra Cuba ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Recuerdos En Rafaga ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Consulta Medica ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Romeria Del Poeta A Guayaquil ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Horas Sociales Y Civicas ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Sexta Isla ",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Talento Se Hereda O Se Adquiere ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Droga Y Mentira Dos Agresiones Contra Cuba ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Pareja De Hoy Y Su Sexualidad ",
+    "precio": 3.0,
+    "stock": 3
+  },
+  {
+    "titulo": "Un Grano De Maiz ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Andes Patrimonio Vivo ($70)",
+    "precio": 25.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Poemas De Amor ",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Alta Tecnologia Nuevo Poder ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Cocina Erotica ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "A La Cubana - Recetas De Cocina Tradicional ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Mi Pequeña Enciclopedia De Cocina ",
+    "precio": 10.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fiebre De Invierno ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diodati, Idiota",
+    "precio": 0.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Neruda Retrato De Familia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Un Final Perfecto ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Assanssins Creed ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Juegos De La Edad Tardia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Diccionario Esencial De Las Ciencias ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mi Primera Biblia ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Disfraces ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sueños (Pintar)",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Zen (Pintar)",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Genios De La Pintura ",
+    "precio": 10.0,
+    "stock": 5
+  },
+  {
+    "titulo": "Las Mitas En La Real Audiencia De Quito ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Adulterio ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Luces De Agosto ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Papillon ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador Identidad O Esquizofrenia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Plantaciones Forestales ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Las Fabulas De Esopo (Completa) ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Psicologia Oscura ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Piratas En El Golfo ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Resetea Tu Mente ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Espejos ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Curacion Cuantica ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Lecturas Y Rupturas ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "De Mi Para Mi ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Sincrodestino ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Protagonistas De La Historia Universal ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Burlar Al Diablo ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Todo Esta Jodido",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Anatomista ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Festin Del Petroleo ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Planeta De Los Simios ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mandalas - Antiestres ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Ecuador Megadiverso ",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Usted Puede Sanar Su Vida",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Como Mandar A La Mierda De Forma Educada ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Festin Del Petroleo (Jaime Galarza) (Actualizada)",
+    "precio": 12.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ficciones ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Manuela ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Amar ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Resumen De La Historia Del Ecuador ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Carta A Un Niño Que Nunca Nacio ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Borrador ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Copia En Limpio ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Pensamiento Vivo - Gandhi ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "En Breve Historia Contemporanea Del Ecuador ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Aura O Las Violetas ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Necronomicon ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Magia Del Poder Psicotronico ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Señor Presidente ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Facetas De Nuestra Historia ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecuador En La Mira ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Mea Cuba",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "De Animales A Dioses ",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "La Busca ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Los Reyes Del Mambo ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Dichos Y Refranes Adivinanzas Chistes Trabalenguas ",
+    "precio": 2.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Manual Educacion Ambiental ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Parques Humanos ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Filos Presocraticos 1 ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Filos Socrates ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Filos Romana ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Filos Patristica ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Filos Escolastica ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Odino ",
+    "precio": 3.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Teogonia ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fiestas Romanas ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Duelo ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Discurso Del Metodo ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Cantar Del Cid ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Si Los Humanismo ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Elogio De La Locura ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Meditaciones Metafisicas ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Filos Presocraticos Ii Ed.",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Cronicas Del Papirri",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Genesis ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Sexismo Lingüistico ",
+    "precio": 6.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Gran Diluvio ",
+    "precio": 7.0,
+    "stock": 2
+  },
+  {
+    "titulo": "La Biblia Nos Habla Hoy ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "El Museo Del Apocalipsis ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Opera Omnia Tomo 1 Proceso Y Muerte",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Luces De Agosto ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Primer Ateo ",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Opera Omnia Tomo 6 La Lirica ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Arte De Amar ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Opera Omnia Tomo 7 Atlantida ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Opera Omnia Tomo 10 Espurias ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Opera Omnia Tomo Cuatro La Virtud ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Omnia Tomo 5 La Retorica ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Opera Ovnia Tomo 3 El Amor ",
+    "precio": 7.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fisica ",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Omnia Tomo Dos El Conocimiento ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Opera Omnia Tomo 8 La Republica ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Operaomnia Tomo 9 Las Leyes ",
+    "precio": 9.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Metamorfosis ",
+    "precio": 9.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Andersen La Reina De Las Nieves Y Otros Cuentos ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ecce Homo ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Fabulas De La Fontaine (Las) ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fabulas De Perrault (Last)",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Fantasma De Canterville (El)",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Grimm 8 Caperucita Roja ",
+    "precio": 4.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Mil Y Una Noches (Las)",
+    "precio": 8.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Pinocho ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "3 Obras Selectas ",
+    "precio": 4.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Divina Comedia 3 Tomos ",
+    "precio": 15.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Purgatorio ",
+    "precio": 5.0,
+    "stock": 2
+  },
+  {
+    "titulo": "Anima Aristoteles ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Lupus ",
+    "precio": 5.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Problemas Eterno ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Kadesh ",
+    "precio": 6.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Geometria Analitica - Lehman",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Solucionario Geometria - Lehman",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Historia Universal Para Todos ",
+    "precio": 5.0,
+    "stock": 7
+  },
+  {
+    "titulo": "Enciclopedia Basica Escolar ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Angamarca ",
+    "precio": 3.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Encuentro Con Fidel ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "El Bogotazo: Memorias Del Olvido  ",
+    "precio": 10.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Ñacahuazu A La Higuera ",
+    "precio": 8.0,
+    "stock": 1
+  },
+  {
+    "titulo": "Pecho Paramo Y El Llano En Llamas ",
+    "precio": 3.0,
+    "stock": 1
+  }
+]
