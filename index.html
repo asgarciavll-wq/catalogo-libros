@@ -114,7 +114,7 @@ footer {
 </footer>
 
 <script>
-const telefono = "593XXXXXXXXX"; // CAMBIA TU NÚMERO
+const telefono = "593992826027"; // CAMBIA TU NÚMERO
 let libros = [];
 
 fetch('catalogo_libros.json')
@@ -150,12 +150,17 @@ function mostrar(lista) {
 
   cont.innerHTML = lista.map(l => `
     <div class="card">
-      <img src="${portada(l.titulo)}"
-           onerror="this.src='https://via.placeholder.com/300x450?text=Libro'">
+      <img
+        src="https://covers.openlibrary.org/b/title/${encodeURIComponent(l.titulo)}-L.jpg"
+        onerror="this.src='https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80'"
+      >
       <div class="info">
         <h3>${l.titulo}</h3>
         <p><b>Precio:</b> $${l.precio}</p>
         <p><b>Stock:</b> ${l.stock}</p>
+        <p style="font-size:13px;color:#555;margin-top:8px;">
+          Resumen no disponible. Para más información, consulta por WhatsApp.
+        </p>
       </div>
       <button onclick="whatsapp('${l.titulo}', ${l.precio})">
         Consultar por WhatsApp
