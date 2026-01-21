@@ -7,14 +7,13 @@
 <style>
 body {
   margin:0;
-  font-family: 'Segoe UI', Arial, sans-serif;
+  font-family:'Segoe UI', Arial, sans-serif;
   background:#f2f4f8;
 }
 header {
   background:#1e293b;
   color:white;
   padding:20px;
-  text-align:center;
 }
 .container {
   max-width:1200px;
@@ -42,8 +41,6 @@ header {
   color:white;
   cursor:pointer;
 }
-.search-box button:hover { opacity:0.9; }
-
 .grid {
   display:grid;
   grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
@@ -92,30 +89,15 @@ footer {
 }
 </style>
 </head>
+
 <body>
 
-<header style="
-  background:#1e293b;
-  color:white;
-  padding:20px;
-">
-  <div style="
-    max-width:1200px;
-    margin:auto;
-    display:flex;
-    align-items:center;
-    gap:15px;
-  ">
-    <img src="logo.png" alt="Logo Librería" style="
-      width:60px;
-      height:60px;
-      object-fit:contain;
-    ">
+<header>
+  <div style="max-width:1200px;margin:auto;display:flex;align-items:center;gap:15px;">
+    <img src="logo.png" style="width:60px;height:60px;object-fit:contain;">
     <div>
-      <h1 style="margin:0;">EL placer de la Lectura</h1>
-      <p style="margin:4px 0 0 0; font-size:14px;">
-        Catálogo de libros disponibles
-      </p>
+      <h1 style="margin:0;">El Placer de la Lectura</h1>
+      <p style="margin:4px 0 0 0;font-size:14px;">Catálogo de libros disponibles</p>
     </div>
   </div>
 </header>
@@ -135,84 +117,85 @@ footer {
 </footer>
 
 <script>
-const telefono = "593979255932"; // CAMBIA TU NÚMERO
+const telefono = "593979255932";
 let libros = [];
 
 fetch('catalogo_libros.json')
-.then(r => r.json())
-.then(data => {
-  libros = data;
-  console.log("Libros cargados:", libros.length); // 👈 VERIFICACIÓN
-  mostrar(libros);
-})
-.catch(err => {
-  alert("Error cargando catalogo_libros.json");
-  console.error(err);
-});
+  .then(r => r.json())
+  .then(data => {
+    libros = data;
+    mostrar(libros);
+  });
 
-function limpiar(texto) {
-  return texto
-    .toLowerCase()
-    .replace(/\s+/g, ' ')   // elimina espacios dobles
-    .trim();
+function limpiar(t) {
+  return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim();
 }
 
-function portada(titulo) {
-  return `https://covers.openlibrary.org/b/title/${encodeURIComponent(titulo)}-L.jpg`;
+function obtenerPortada(titulo, img) {
+  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
+    .then(r => r.json())
+    .then(d => {
+      if (d.docs.length && d.docs[0].cover_i) {
+        img.src = `https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
+      } else {
+        img.src = "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80";
+      }
+    })
+    .catch(() => {
+      img.src = "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80";
+    });
 }
 
 function mostrar(lista) {
   const cont = document.getElementById('catalogo');
+  cont.innerHTML = "";
 
-  if (lista.length === 0) {
+  if (!lista.length) {
     cont.innerHTML = "<p>No se encontraron resultados</p>";
     return;
   }
 
-  cont.innerHTML = lista.map(l => `
-    <div class="card">
-      <img
-        src="https://covers.openlibrary.org/b/title/${encodeURIComponent(l.titulo)}-L.jpg"
-        onerror="this.src='https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=400&q=80'"
-      >
-      <div class="info">
-        <h3>${l.titulo}</h3>
-        <p><b>Precio:</b> $${l.precio}</p>
-        <p><b>Stock:</b> ${l.stock}</p>
-        <p style="font-size:13px;color:#555;margin-top:8px;">
-          Resumen no disponible. Para más información, consulta por WhatsApp.
-        </p>
-      </div>
-      <button onclick="whatsapp('${l.titulo}', ${l.precio})">
-        Consultar por WhatsApp
-      </button>
-    </div>
-  `).join('');
+  lista.forEach(l => {
+    const card = document.createElement("div");
+    card.className = "card";
+
+    const img = document.createElement("img");
+    obtenerPortada(l.titulo, img);
+
+    const info = document.createElement("div");
+    info.className = "info";
+    info.innerHTML = `
+      <h3>${l.titulo}</h3>
+      <p><b>Precio:</b> $${l.precio}</p>
+      <p><b>Stock:</b> ${l.stock}</p>
+      <p style="font-size:13px;color:#555;margin-top:8px;">
+        Para más información consulta por WhatsApp.
+      </p>
+    `;
+
+    const btn = document.createElement("button");
+    btn.textContent = "Consultar por WhatsApp";
+    btn.onclick = () => whatsapp(l.titulo, l.precio);
+
+    card.append(img, info, btn);
+    cont.appendChild(card);
+  });
 }
 
 function buscar() {
-  const texto = limpiar(document.getElementById('search').value);
-
-  if (texto === "") {
-    mostrar(libros);
-    return;
-  }
-
-  const filtrados = libros.filter(l =>
-    limpiar(l.titulo).includes(texto)
-  );
-
-  mostrar(filtrados);
+  const t = limpiar(document.getElementById("search").value);
+  if (!t) return mostrar(libros);
+  mostrar(libros.filter(l => limpiar(l.titulo).includes(t)));
 }
-
-document.getElementById('search').addEventListener('keydown', e => {
-  if (e.key === 'Enter') buscar();
-});
 
 function whatsapp(titulo, precio) {
   const msg = `Hola, estoy interesado en el libro: ${titulo} (Precio: $${precio})`;
-  window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(msg)}`, '_blank');
+  window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(msg)}`, "_blank");
 }
+
+document.getElementById("search").addEventListener("keydown", e => {
+  if (e.key === "Enter") buscar();
+});
 </script>
 
 </body>
