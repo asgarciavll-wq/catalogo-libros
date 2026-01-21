@@ -6,88 +6,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-:root{
-  --bg:#f3f4f6;
-  --card:#ffffff;
-  --text:#111827;
-  --sub:#4b5563;
-  --primary:#2563eb;
-}
 body{
   margin:0;
   font-family:Arial, Helvetica, sans-serif;
-  background:var(--bg);
-  color:var(--text);
+  background:#f3f4f6;
+  color:#111827;
 }
-
 header{
   background:#1e293b;
   color:white;
   padding:20px;
 }
-
 .container{
   max-width:1300px;
   margin:auto;
   padding:20px;
 }
-
+.search{
+  margin-bottom:20px;
+}
+.search input{
+  width:100%;
+  padding:12px;
+  font-size:16px;
+  border-radius:8px;
+  border:1px solid #ccc;
+}
 .grid{
   display:grid;
   grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
   gap:22px;
 }
-
 .card{
-  background:var(--card);
+  background:white;
   border-radius:14px;
-  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
   overflow:hidden;
   display:flex;
   flex-direction:column;
   transition:.3s;
 }
 .card:hover{ transform:translateY(-6px); }
-
 .card img{
   height:320px;
   width:100%;
   object-fit:cover;
   background:#e5e7eb;
 }
-
 .info{
   padding:14px;
   flex:1;
 }
-
 .info h3{
   font-size:16px;
   margin:0 0 6px;
 }
-
 .descripcion{
   font-size:14px;
-  color:var(--sub);
+  color:#4b5563;
   margin:8px 0;
 }
-
 .precio{
   font-size:17px;
   font-weight:bold;
   color:#16a34a;
 }
-
 .stock{
   font-size:13px;
-  margin-top:4px;
 }
-
-.sin-stock{
-  color:#dc2626;
-}
-
-.card button{
+.sin-stock{ color:#dc2626; }
+button{
   margin:15px;
   background:#25D366;
   color:white;
@@ -96,7 +84,6 @@ header{
   border-radius:8px;
   cursor:pointer;
 }
-
 footer{
   text-align:center;
   padding:20px;
@@ -119,6 +106,12 @@ footer{
 </header>
 
 <div class="container">
+
+  <!-- BUSCADOR POR TÍTULO -->
+  <div class="search">
+    <input id="buscar" placeholder="Buscar libro por título...">
+  </div>
+
   <div class="grid" id="catalogo"></div>
 </div>
 
@@ -128,26 +121,32 @@ footer{
 
 <script>
 const telefono="593979255932";
+let libros=[];
 let cachePortadas={};
 
-/* --------- CARGA JSON --------- */
+/* -------- CARGAR JSON -------- */
 fetch("catalogo_libros.json")
   .then(r=>r.json())
-  .then(data=>mostrar(data));
+  .then(data=>{
+    libros=data;
+    mostrar(libros);
+  });
 
-/* --------- UTILIDADES --------- */
+/* -------- BUSCADOR -------- */
+document.getElementById("buscar").addEventListener("input",e=>{
+  const t=e.target.value.toLowerCase();
+  mostrar(libros.filter(l=>l.titulo.toLowerCase().includes(t)));
+});
+
+/* -------- UTILIDADES -------- */
 function limpiarTitulo(t){
-  return t
-    .replace(/[-–].*/g,"")
-    .replace(/\(.*?\)/g,"")
-    .trim();
+  return t.replace(/[-–].*/g,"").replace(/\(.*?\)/g,"").trim();
 }
-
 function placeholder(t){
   return `https://dummyimage.com/400x600/1e293b/ffffff&text=${encodeURIComponent(t.slice(0,30))}`;
 }
 
-/* --------- PORTADAS (MAXIMIZADO) --------- */
+/* -------- PORTADAS (MEJORADO) -------- */
 function obtenerPortada(titulo,img){
   const limpio=limpiarTitulo(titulo);
 
@@ -156,11 +155,11 @@ function obtenerPortada(titulo,img){
     return;
   }
 
-  // 1️⃣ OpenLibrary
+  // OpenLibrary
   fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(limpio)}`)
     .then(r=>r.json())
     .then(d=>{
-      if(d.docs && d.docs[0] && d.docs[0].cover_i){
+      if(d.docs?.[0]?.cover_i){
         const url=`https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
         cachePortadas[limpio]=url;
         img.src=url;
@@ -172,7 +171,6 @@ function obtenerPortada(titulo,img){
 }
 
 function googleFallback(titulo,img){
-  // 2️⃣ Google Books
   fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`)
     .then(r=>r.json())
     .then(d=>{
@@ -183,12 +181,12 @@ function googleFallback(titulo,img){
     .catch(()=>img.src=placeholder(titulo));
 }
 
-/* --------- RENDER --------- */
-function mostrar(libros){
+/* -------- RENDER -------- */
+function mostrar(lista){
   const cont=document.getElementById("catalogo");
   cont.innerHTML="";
 
-  libros.forEach(l=>{
+  lista.forEach(l=>{
     const card=document.createElement("div");
     card.className="card";
 
@@ -200,12 +198,10 @@ function mostrar(libros){
     info.className="info";
     info.innerHTML=`
       <h3>${l.titulo}</h3>
-      <div class="descripcion">
-        ${l.descripcion_comercial || "Descripción disponible próximamente."}
-      </div>
+      <div class="descripcion">${l.descripcion_comercial}</div>
       <div class="precio">$${l.precio}</div>
-      <div class="stock ${l.stock > 0 ? "" : "sin-stock"}">
-        ${l.stock > 0 ? "Stock: " + l.stock : "Sin stock"}
+      <div class="stock ${l.stock>0?"":"sin-stock"}">
+        ${l.stock>0 ? "Stock: "+l.stock : "Sin stock"}
       </div>
     `;
 
