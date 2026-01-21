@@ -6,10 +6,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
+:root {
+  --bg:#f2f4f8;
+  --card:#ffffff;
+  --text:#111827;
+  --sub:#555;
+  --primary:#2563eb;
+}
+
+.dark {
+  --bg:#0f172a;
+  --card:#1e293b;
+  --text:#f9fafb;
+  --sub:#cbd5f5;
+}
+
 body {
   margin:0;
   font-family:'Segoe UI', Arial, sans-serif;
-  background:#f2f4f8;
+  background:var(--bg);
+  color:var(--text);
 }
 
 header {
@@ -24,98 +40,80 @@ header {
   padding:20px;
 }
 
-.search-box {
-  display:flex;
+.controls {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr auto;
   gap:10px;
-  margin-bottom:30px;
+  margin-bottom:25px;
 }
 
-.search-box input {
-  flex:1;
-  padding:14px;
-  font-size:16px;
+input, select {
+  padding:12px;
   border-radius:8px;
   border:1px solid #ccc;
+  font-size:14px;
 }
 
-.search-box button {
-  padding:14px 20px;
-  font-size:16px;
+button {
+  padding:12px;
   border:none;
   border-radius:8px;
-  background:#2563eb;
+  background:var(--primary);
   color:white;
   cursor:pointer;
 }
 
 .grid {
   display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns:repeat(auto-fill, minmax(220px,1fr));
   gap:20px;
 }
 
 .card {
-  background:white;
+  background:var(--card);
   border-radius:14px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.08);
+  box-shadow:0 8px 20px rgba(0,0,0,.08);
   overflow:hidden;
   display:flex;
   flex-direction:column;
-  transition:transform .3s, box-shadow .3s;
+  transition:.3s;
 }
 
 .card:hover {
   transform:translateY(-6px);
-  box-shadow:0 16px 30px rgba(0,0,0,0.15);
 }
 
 .card img {
   height:260px;
   object-fit:cover;
   background:#e5e7eb;
-  transition:transform .3s;
 }
 
-.card:hover img {
-  transform:scale(1.05);
-}
-
-.card .info {
+.info {
   padding:15px;
   flex:1;
 }
 
 .card h3 {
   font-size:16px;
-  margin:0 0 10px 0;
+  margin:0 0 8px;
 }
 
 .card p {
   margin:4px 0;
   font-size:14px;
+  color:var(--sub);
 }
 
 .card button {
   margin:15px;
-  padding:10px;
-  border:none;
-  border-radius:8px;
   background:#25D366;
-  color:white;
-  font-size:14px;
-  cursor:pointer;
 }
 
-/* Skeleton loading */
 .skeleton {
-  background:linear-gradient(
-    90deg,
-    #e5e7eb 25%,
-    #f3f4f6 37%,
-    #e5e7eb 63%
-  );
+  background:linear-gradient(90deg,#e5e7eb 25%,#f3f4f6 37%,#e5e7eb 63%);
   background-size:400% 100%;
-  animation:skeleton 1.4s ease infinite;
+  animation:skeleton 1.4s infinite;
 }
 
 @keyframes skeleton {
@@ -126,8 +124,8 @@ header {
 footer {
   text-align:center;
   padding:20px;
-  color:#6b7280;
   font-size:14px;
+  color:#9ca3af;
 }
 </style>
 </head>
@@ -135,22 +133,27 @@ footer {
 <body>
 
 <header>
-  <div style="max-width:1200px;margin:auto;display:flex;align-items:center;gap:15px;">
-    <img src="logo.png" style="width:60px;height:60px;object-fit:contain;">
-    <div>
-      <h1 style="margin:0;">El Placer de la Lectura</h1>
-      <p style="margin:4px 0 0 0;font-size:14px;">
-        Catálogo de libros disponibles
-      </p>
+  <div style="max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center;">
+    <div style="display:flex;gap:15px;align-items:center;">
+      <img src="logo.png" style="width:55px">
+      <div>
+        <h2 style="margin:0">El Placer de la Lectura</h2>
+        <small>Catálogo de libros</small>
+      </div>
     </div>
+    <button onclick="toggleDark()">🌙</button>
   </div>
 </header>
 
 <div class="container">
 
-  <div class="search-box">
-    <input id="search" placeholder="Buscar libro por título...">
-    <button onclick="buscar()">🔍 Buscar</button>
+  <div class="controls">
+    <input id="search" placeholder="Buscar título">
+    <select id="genero">
+      <option value="">Todos los géneros</option>
+    </select>
+    <input id="precio" type="number" placeholder="Precio máximo">
+    <button onclick="aplicarFiltros()">Filtrar</button>
   </div>
 
   <div class="grid" id="catalogo"></div>
@@ -163,115 +166,116 @@ footer {
 <script>
 const telefono = "593979255932";
 let libros = [];
+let cachePortadas = {};
 
-/* --------- CARGA DE DATOS --------- */
 fetch("catalogo_libros.json")
-  .then(r => r.json())
-  .then(data => {
-    libros = data;
+  .then(r=>r.json())
+  .then(data=>{
+    libros=data;
+    cargarGeneros();
     mostrar(libros);
   });
 
+/* --------- MODO OSCURO --------- */
+if(localStorage.dark==="true") document.body.classList.add("dark");
+
+function toggleDark(){
+  document.body.classList.toggle("dark");
+  localStorage.dark=document.body.classList.contains("dark");
+}
+
 /* --------- UTILIDADES --------- */
-function limpiar(t) {
-  return t.toLowerCase()
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g,"")
-    .trim();
+function limpiar(t){
+  return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 }
 
-function tituloBusqueda(t) {
-  return t
-    .replace(/[-–].*/g,"")
-    .replace(/\(.*?\)/g,"")
-    .trim();
+function placeholder(t){
+  return `https://dummyimage.com/400x600/1e293b/ffffff&text=${encodeURIComponent(t.slice(0,30))}`;
 }
 
-function placeholder(titulo) {
-  const txt = encodeURIComponent(titulo.slice(0,40));
-  return `https://dummyimage.com/400x600/1e293b/ffffff&text=${txt}`;
-}
-
-/* --------- PORTADAS --------- */
-function obtenerPortada(libro, img) {
-  const titulo = tituloBusqueda(libro.titulo);
-
-  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
-    .then(r => r.json())
-    .then(d => {
-      if (d.docs?.[0]?.cover_i) {
-        img.src = `https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
-      } else {
-        portadaGoogle(titulo, img);
-      }
-    })
-    .catch(() => portadaGoogle(titulo, img));
-}
-
-function portadaGoogle(titulo, img) {
-  fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`)
-    .then(r => r.json())
-    .then(d => {
-      const url = d.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
-      img.src = url ? url.replace("zoom=1","zoom=2") : placeholder(titulo);
-    })
-    .catch(() => img.src = placeholder(titulo));
-}
-
-/* --------- RENDER --------- */
-function mostrar(lista) {
-  const cont = document.getElementById("catalogo");
-  cont.innerHTML = "";
-
-  if (!lista.length) {
-    cont.innerHTML = "<p>No se encontraron resultados</p>";
+/* --------- PORTADAS OPTIMIZADAS --------- */
+function obtenerPortada(titulo,img){
+  if(cachePortadas[titulo]){
+    img.src=cachePortadas[titulo];
     return;
   }
 
-  lista.forEach(l => {
-    const card = document.createElement("div");
-    card.className = "card";
+  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
+    .then(r=>r.json())
+    .then(d=>{
+      const url=d.docs?.[0]?.cover_i
+        ?`https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`
+        :placeholder(titulo);
+      cachePortadas[titulo]=url;
+      img.src=url;
+    })
+    .catch(()=>img.src=placeholder(titulo));
+}
 
-    const img = document.createElement("img");
-    img.classList.add("skeleton");
-    img.onload = () => img.classList.remove("skeleton");
-    obtenerPortada(l, img);
+/* --------- RENDER --------- */
+function mostrar(lista){
+  const cont=document.getElementById("catalogo");
+  cont.innerHTML="";
+  if(!lista.length){
+    cont.innerHTML="<p>No hay resultados</p>";
+    return;
+  }
 
-    const info = document.createElement("div");
-    info.className = "info";
-    info.innerHTML = `
+  lista.forEach(l=>{
+    const c=document.createElement("div");
+    c.className="card";
+
+    const img=document.createElement("img");
+    img.loading="lazy";
+    img.className="skeleton";
+    img.onload=()=>img.classList.remove("skeleton");
+    obtenerPortada(l.titulo,img);
+
+    const info=document.createElement("div");
+    info.className="info";
+    info.innerHTML=`
       <h3>${l.titulo}</h3>
-      <p><b>Precio:</b> $${l.precio}</p>
-      <p><b>Stock:</b> ${l.stock}</p>
-      <p style="font-size:13px;color:#555;margin-top:8px;">
-        Consulta disponibilidad por WhatsApp.
-      </p>
+      <p>Género: ${l.genero}</p>
+      <p>Precio: $${l.precio}</p>
+      <p>Stock: ${l.stock}</p>
     `;
 
-    const btn = document.createElement("button");
-    btn.textContent = "Consultar por WhatsApp";
-    btn.onclick = () => whatsapp(l.titulo, l.precio);
+    const b=document.createElement("button");
+    b.textContent="WhatsApp";
+    b.onclick=()=>window.open(
+      `https://wa.me/${telefono}?text=${encodeURIComponent("Hola, me interesa "+l.titulo)}`,
+      "_blank"
+    );
 
-    card.append(img, info, btn);
-    cont.appendChild(card);
+    c.append(img,info,b);
+    cont.appendChild(c);
   });
 }
 
-/* --------- BUSCADOR --------- */
-function buscar() {
-  const t = limpiar(document.getElementById("search").value);
-  if (!t) return mostrar(libros);
-  mostrar(libros.filter(l => limpiar(l.titulo).includes(t)));
+/* --------- FILTROS --------- */
+function cargarGeneros(){
+  const g=[...new Set(libros.map(l=>l.genero))];
+  const sel=document.getElementById("genero");
+  g.forEach(x=>{
+    const o=document.createElement("option");
+    o.value=x;
+    o.textContent=x;
+    sel.appendChild(o);
+  });
 }
 
-document.getElementById("search").addEventListener("keydown", e => {
-  if (e.key === "Enter") buscar();
-});
+function aplicarFiltros(){
+  const t=limpiar(search.value);
+  const g=genero.value;
+  const p=precio.value;
 
-/* --------- WHATSAPP --------- */
-function whatsapp(titulo, precio) {
-  const msg = `Hola, estoy interesado en el libro: ${titulo} (Precio: $${precio})`;
-  window.open(`https://wa.me/${telefono}?text=${encodeURIComponent(msg)}`, "_blank");
+  let r=libros.filter(l=>
+    limpiar(l.titulo).includes(t) &&
+    (!g || l.genero===g) &&
+    (!p || l.precio<=p)
+  );
+
+  mostrar(r);
 }
 </script>
 
