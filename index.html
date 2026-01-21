@@ -6,55 +6,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-:root {
+:root{
   --bg:#f2f4f8;
   --card:#ffffff;
   --text:#111827;
   --sub:#555;
   --primary:#2563eb;
 }
-
-.dark {
+.dark{
   --bg:#0f172a;
   --card:#1e293b;
   --text:#f9fafb;
   --sub:#cbd5f5;
 }
 
-body {
+body{
   margin:0;
   font-family:'Segoe UI', Arial, sans-serif;
   background:var(--bg);
   color:var(--text);
 }
 
-header {
+header{
   background:#1e293b;
   color:white;
   padding:20px;
 }
 
-.container {
+.container{
   max-width:1200px;
   margin:auto;
   padding:20px;
 }
 
-.controls {
+.controls{
   display:grid;
-  grid-template-columns:1fr 1fr 1fr auto;
+  grid-template-columns:1fr 1fr auto;
   gap:10px;
   margin-bottom:25px;
 }
 
-input, select {
+input,select{
   padding:12px;
   border-radius:8px;
   border:1px solid #ccc;
   font-size:14px;
 }
 
-button {
+button{
   padding:12px;
   border:none;
   border-radius:8px;
@@ -63,13 +62,13 @@ button {
   cursor:pointer;
 }
 
-.grid {
+.grid{
   display:grid;
-  grid-template-columns:repeat(auto-fill, minmax(220px,1fr));
+  grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
   gap:20px;
 }
 
-.card {
+.card{
   background:var(--card);
   border-radius:14px;
   box-shadow:0 8px 20px rgba(0,0,0,.08);
@@ -78,50 +77,49 @@ button {
   flex-direction:column;
   transition:.3s;
 }
-
-.card:hover {
+.card:hover{
   transform:translateY(-6px);
 }
 
-.card img {
-  height:260px;
+.card img{
+  height:280px;
   object-fit:cover;
   background:#e5e7eb;
 }
 
-.info {
+.info{
   padding:15px;
   flex:1;
 }
 
-.card h3 {
+.card h3{
   font-size:16px;
-  margin:0 0 8px;
+  margin:0 0 6px;
 }
 
-.card p {
+.card p{
   margin:4px 0;
   font-size:14px;
   color:var(--sub);
 }
 
-.card button {
+.card button{
   margin:15px;
   background:#25D366;
 }
 
-.skeleton {
+.skeleton{
   background:linear-gradient(90deg,#e5e7eb 25%,#f3f4f6 37%,#e5e7eb 63%);
   background-size:400% 100%;
   animation:skeleton 1.4s infinite;
 }
 
-@keyframes skeleton {
-  0% { background-position:100% 0 }
-  100% { background-position:-100% 0 }
+@keyframes skeleton{
+  0%{background-position:100% 0}
+  100%{background-position:-100% 0}
 }
 
-footer {
+footer{
   text-align:center;
   padding:20px;
   font-size:14px;
@@ -148,11 +146,10 @@ footer {
 <div class="container">
 
   <div class="controls">
-    <input id="search" placeholder="Buscar título">
+    <input id="search" placeholder="Buscar libro por título">
     <select id="genero">
       <option value="">Todos los géneros</option>
     </select>
-    <input id="precio" type="number" placeholder="Precio máximo">
     <button onclick="aplicarFiltros()">Filtrar</button>
   </div>
 
@@ -164,10 +161,18 @@ footer {
 </footer>
 
 <script>
-const telefono = "593979255932";
-let libros = [];
-let cachePortadas = {};
+const telefono="593979255932";
+let libros=[];
+let cachePortadas={};
 
+/* -------- MODO OSCURO -------- */
+if(localStorage.dark==="true") document.body.classList.add("dark");
+function toggleDark(){
+  document.body.classList.toggle("dark");
+  localStorage.dark=document.body.classList.contains("dark");
+}
+
+/* -------- CARGA DATOS -------- */
 fetch("catalogo_libros.json")
   .then(r=>r.json())
   .then(data=>{
@@ -176,51 +181,66 @@ fetch("catalogo_libros.json")
     mostrar(libros);
   });
 
-/* --------- MODO OSCURO --------- */
-if(localStorage.dark==="true") document.body.classList.add("dark");
-
-function toggleDark(){
-  document.body.classList.toggle("dark");
-  localStorage.dark=document.body.classList.contains("dark");
-}
-
-/* --------- UTILIDADES --------- */
-function limpiar(t){
-  return t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+/* -------- UTILIDADES -------- */
+function limpiarTitulo(t){
+  return t
+    .replace(/[-–].*/g,"")
+    .replace(/\(.*?\)/g,"")
+    .replace(/\d+°?.*/g,"")
+    .trim();
 }
 
 function placeholder(t){
   return `https://dummyimage.com/400x600/1e293b/ffffff&text=${encodeURIComponent(t.slice(0,30))}`;
 }
 
-/* --------- PORTADAS OPTIMIZADAS --------- */
-function obtenerPortada(titulo,img){
-  if(cachePortadas[titulo]){
-    img.src=cachePortadas[titulo];
+/* -------- PORTADAS (MEJORADO) -------- */
+function obtenerPortada(libro,img){
+  const base=limpiarTitulo(libro.titulo);
+
+  if(cachePortadas[base]){
+    img.src=cachePortadas[base];
     return;
   }
 
-  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(titulo)}`)
+  // 1️⃣ ISBN (si existe)
+  if(libro.isbn){
+    const url=`https://covers.openlibrary.org/b/isbn/${libro.isbn}-L.jpg`;
+    cachePortadas[base]=url;
+    img.src=url;
+    return;
+  }
+
+  // 2️⃣ Open Library
+  fetch(`https://openlibrary.org/search.json?title=${encodeURIComponent(base)}`)
     .then(r=>r.json())
     .then(d=>{
-      const url=d.docs?.[0]?.cover_i
-        ?`https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`
-        :placeholder(titulo);
-      cachePortadas[titulo]=url;
-      img.src=url;
+      if(d.docs?.[0]?.cover_i){
+        const url=`https://covers.openlibrary.org/b/id/${d.docs[0].cover_i}-L.jpg`;
+        cachePortadas[base]=url;
+        img.src=url;
+      }else{
+        portadaGoogle(base,img);
+      }
+    })
+    .catch(()=>portadaGoogle(base,img));
+}
+
+function portadaGoogle(titulo,img){
+  fetch(`https://www.googleapis.com/books/v1/volumes?q=intitle:${encodeURIComponent(titulo)}`)
+    .then(r=>r.json())
+    .then(d=>{
+      const url=d.items?.[0]?.volumeInfo?.imageLinks?.thumbnail;
+      img.src=url?url.replace("zoom=1","zoom=2"):placeholder(titulo);
+      cachePortadas[titulo]=img.src;
     })
     .catch(()=>img.src=placeholder(titulo));
 }
 
-/* --------- RENDER --------- */
+/* -------- RENDER -------- */
 function mostrar(lista){
   const cont=document.getElementById("catalogo");
   cont.innerHTML="";
-  if(!lista.length){
-    cont.innerHTML="<p>No hay resultados</p>";
-    return;
-  }
-
   lista.forEach(l=>{
     const c=document.createElement("div");
     c.className="card";
@@ -229,21 +249,20 @@ function mostrar(lista){
     img.loading="lazy";
     img.className="skeleton";
     img.onload=()=>img.classList.remove("skeleton");
-    obtenerPortada(l.titulo,img);
+    obtenerPortada(l,img);
 
     const info=document.createElement("div");
     info.className="info";
     info.innerHTML=`
       <h3>${l.titulo}</h3>
-      <p>Género: ${l.genero}</p>
-      <p>Precio: $${l.precio}</p>
-      <p>Stock: ${l.stock}</p>
+      <p>${l.genero}</p>
+      <p>${l.descripcion}</p>
     `;
 
     const b=document.createElement("button");
-    b.textContent="WhatsApp";
+    b.textContent="Consultar por WhatsApp";
     b.onclick=()=>window.open(
-      `https://wa.me/${telefono}?text=${encodeURIComponent("Hola, me interesa "+l.titulo)}`,
+      `https://wa.me/${telefono}?text=${encodeURIComponent("Hola, me interesa el libro: "+l.titulo)}`,
       "_blank"
     );
 
@@ -252,30 +271,25 @@ function mostrar(lista){
   });
 }
 
-/* --------- FILTROS --------- */
+/* -------- FILTROS -------- */
 function cargarGeneros(){
   const g=[...new Set(libros.map(l=>l.genero))];
-  const sel=document.getElementById("genero");
+  const s=document.getElementById("genero");
   g.forEach(x=>{
     const o=document.createElement("option");
     o.value=x;
     o.textContent=x;
-    sel.appendChild(o);
+    s.appendChild(o);
   });
 }
 
 function aplicarFiltros(){
-  const t=limpiar(search.value);
-  const g=genero.value;
-  const p=precio.value;
-
-  let r=libros.filter(l=>
-    limpiar(l.titulo).includes(t) &&
-    (!g || l.genero===g) &&
-    (!p || l.precio<=p)
-  );
-
-  mostrar(r);
+  const t=document.getElementById("search").value.toLowerCase();
+  const g=document.getElementById("genero").value;
+  mostrar(libros.filter(l=>
+    l.titulo.toLowerCase().includes(t) &&
+    (!g || l.genero===g)
+  ));
 }
 </script>
 
