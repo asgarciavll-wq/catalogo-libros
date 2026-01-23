@@ -258,6 +258,53 @@ body.noche footer{
   color:#d8c9a5;
 }
 
+/* ESTANTES 3D */
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(0,0,0,.25) 0px,
+      rgba(0,0,0,.25) 8px,
+      transparent 8px,
+      transparent 140px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,.06) 0px,
+      rgba(255,255,255,.06) 2px,
+      transparent 2px,
+      transparent 140px
+    );
+  z-index:-1;
+}
+
+/* PROFUNDIDAD DEL ESTANTE */
+.grid{
+  position:relative;
+  padding-top:30px;
+}
+
+.grid::before{
+  content:"";
+  position:absolute;
+  left:-40px;
+  right:-40px;
+  height:18px;
+  top:-18px;
+  background:linear-gradient(
+    to bottom,
+    #3a260f,
+    #1f1408
+  );
+  box-shadow:
+    0 12px 25px rgba(0,0,0,.6);
+  border-radius:0 0 8px 8px;
+}
+
 </style>
 </head>
 
@@ -267,10 +314,12 @@ body.noche footer{
 
 <script>
 const sound = document.getElementById("pageSound");
+
 document.querySelectorAll(".card").forEach(card=>{
   card.addEventListener("mouseenter",()=>{
+    sound.pause();
     sound.currentTime = 0;
-    sound.volume = 0.2;
+    sound.volume = 0.45; // 🔊 MÁS FUERTE PERO ELEGANTE
     sound.play();
   });
 });
