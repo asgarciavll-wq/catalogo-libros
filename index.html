@@ -527,6 +527,38 @@ body.noche .card .precio{
   transition:none !important;
 }
 
+/* DORADO APAGADO – SIN STOCK */
+.card .sin-stock ~ .precio,
+.card .sin-stock{
+  color:#9c8a63 !important;
+}
+
+.card:has(.sin-stock) h3{
+  color:#a8966d !important;
+  text-shadow:none !important;
+}
+
+.card:has(.sin-stock):hover h3{
+  text-shadow:none !important;
+}
+
+/* BRILLO SUAVE DORADO AL HOVER */
+.card:hover .info h3{
+  text-shadow:
+    0 0 6px rgba(194,163,107,.45),
+    0 0 12px rgba(194,163,107,.25);
+}
+
+.card:hover .precio{
+  text-shadow:
+    0 0 6px rgba(191,160,74,.45);
+}
+
+.card:hover button{
+  box-shadow:
+    0 0 8px rgba(245,230,200,.35);
+}
+
 </style>
 </head>
 
@@ -588,6 +620,24 @@ searchInput.addEventListener("input", () => {
     });
   });
 });
+</script>
+
+<script>
+function ajustarTitulosLargos(){
+  document.querySelectorAll(".card h3").forEach(h3=>{
+    if(h3.innerText.length > 40){
+      h3.style.color = "#b8a26f";
+      h3.style.textShadow = "0 0 4px rgba(184,162,111,.25)";
+    }
+  });
+}
+
+// Asegurar en cada render
+const _renderOriginal = renderLibros;
+renderLibros = function(){
+  _renderOriginal();
+  ajustarTitulosLargos();
+};
 </script>
 
 
