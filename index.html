@@ -559,6 +559,25 @@ body.noche .card .precio{
     0 0 8px rgba(245,230,200,.35);
 }
 
+/* DESGASTE PROGRESIVO SEGÚN STOCK */
+.card.stock-medio h3{
+  color:#b8a26f !important;
+  text-shadow:0 0 4px rgba(184,162,111,.25);
+}
+
+.card.stock-bajo h3{
+  color:#9c8a63 !important;
+  text-shadow:none !important;
+}
+
+.card.stock-bajo .precio{
+  color:#a08d5f !important;
+}
+
+.card.stock-bajo:hover h3{
+  text-shadow:none !important;
+}
+
 </style>
 </head>
 
@@ -637,6 +656,36 @@ const _renderOriginal = renderLibros;
 renderLibros = function(){
   _renderOriginal();
   ajustarTitulosLargos();
+};
+</script>
+
+<script>
+function aplicarDesgastePorStock(){
+  document.querySelectorAll(".card").forEach(card=>{
+    const stockEl = card.querySelector(".stock");
+    if(!stockEl) return;
+
+    const texto = stockEl.innerText;
+    const match = texto.match(/\d+/);
+    if(!match) return;
+
+    const stock = parseInt(match[0]);
+
+    card.classList.remove("stock-medio","stock-bajo");
+
+    if(stock <= 2){
+      card.classList.add("stock-bajo");
+    }else if(stock <= 5){
+      card.classList.add("stock-medio");
+    }
+  });
+}
+
+/* Asegurar en cada render */
+const _renderConDesgaste = renderLibros;
+renderLibros = function(){
+  _renderConDesgaste();
+  aplicarDesgastePorStock();
 };
 </script>
 
