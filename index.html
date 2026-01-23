@@ -195,8 +195,93 @@ footer{
   to{opacity:0; transform:translateX(100%);}
 }
 
+/* ESTANTERÍAS DE MADERA */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  background:
+    repeating-linear-gradient(
+      to bottom,
+      rgba(90,55,25,.55) 0px,
+      rgba(90,55,25,.55) 140px,
+      rgba(60,35,15,.85) 142px,
+      rgba(60,35,15,.85) 150px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,.15),
+      transparent 20%,
+      transparent 80%,
+      rgba(0,0,0,.15)
+    );
+  z-index:-2;
+}
+
+/* SEPARA CONTENIDO DEL FONDO */
+.container{
+  background:rgba(242,230,201,.92);
+  border-radius:12px;
+  box-shadow:0 25px 60px rgba(0,0,0,.6);
+}
+
+/* MODO NOCHE */
+body.noche{
+  background:
+    radial-gradient(circle at 50% 0%, rgba(255,200,120,.12), transparent 55%),
+    repeating-linear-gradient(
+      to bottom,
+      rgba(40,25,10,.8) 0px,
+      rgba(40,25,10,.8) 140px,
+      rgba(20,12,6,.95) 142px,
+      rgba(20,12,6,.95) 150px
+    ),
+    #1a1208;
+  color:#e6d8b0;
+}
+
+body.noche .container{
+  background:rgba(30,20,10,.92);
+}
+
+body.noche .card{
+  background:#2a1b0f;
+  box-shadow:
+    inset 6px 0 0 #3a260f,
+    inset 8px 0 0 #6b4b1f,
+    0 20px 50px rgba(0,0,0,.9);
+}
+
+body.noche header,
+body.noche footer{
+  background:#1c1209;
+  color:#d8c9a5;
+}
+
 </style>
 </head>
+
+<audio id="pageSound" preload="auto">
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2c6dbf8f66.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+const sound = document.getElementById("pageSound");
+document.querySelectorAll(".card").forEach(card=>{
+  card.addEventListener("mouseenter",()=>{
+    sound.currentTime = 0;
+    sound.volume = 0.2;
+    sound.play();
+  });
+});
+</script>
+
+<script>
+const hour = new Date().getHours();
+if(hour >= 19 || hour <= 6){
+  document.body.classList.add("noche");
+}
+</script>
 
 <body>
 
