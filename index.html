@@ -442,12 +442,56 @@ body::after{
 }
 
 
+/* RECUPERAR TONOS DORADOS */
+.info h3{
+  color:#c2a36b !important;
+}
+
+.precio{
+  color:#bfa04a !important;
+}
+
+button{
+  color:#f5e6c8 !important;
+}
+
+#paginacion button{
+  color:#f5e6c8;
+}
+
+#paginacion span{
+  color:#c2a36b;
+}
+
+/* PAGINACIÓN CLÁSICA */
+#paginacion{
+  margin-top:50px;
+}
+
+#paginacion button{
+  background:linear-gradient(#6b4b1f,#4a3415);
+  border:2px solid #3a260f;
+  border-radius:4px;
+  padding:10px 14px;
+  margin:0 6px;
+  font-family:'Cinzel', serif;
+}
+
+#paginacion button:disabled{
+  opacity:.4;
+  cursor:not-allowed;
+}
+
+window.scrollTo({ top:0, behavior:"smooth" });
+
 </style>
 </head>
 
 <audio id="pageSound" preload="auto">
   <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_2c6dbf8f66.mp3" type="audio/mpeg">
 </audio>
+
+
 
 <script>
 const sound = document.getElementById("pageSound");
@@ -740,6 +784,24 @@ function renderLibros(){
   renderPaginacion(librosFiltrados.length);
 }
 </script>
+
+<script>
+/* ASEGURAR PAGINACIÓN SIEMPRE */
+function renderLibros(){
+  const grid = document.querySelector(".grid");
+  grid.innerHTML = "";
+
+  const inicio = (paginaActual - 1) * LIBROS_POR_PAGINA;
+  const fin = inicio + LIBROS_POR_PAGINA;
+
+  librosFiltrados.slice(inicio, fin).forEach(libro=>{
+    crearCard(libro);
+  });
+
+  renderPaginacion(librosFiltrados.length);
+}
+</script>
+
 
 <script>
 function generarPortada(titulo){
