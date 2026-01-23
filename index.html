@@ -346,6 +346,60 @@ body::after{
   opacity:.9;
 }
 
+/* BUSCADOR INTEGRADO AL ESTANTE */
+.search{
+  position:relative;
+  margin-bottom:30px;
+  padding:18px 22px;
+  background:
+    linear-gradient(to bottom, #ead7b0, #d8c29a);
+  border-radius:8px;
+  box-shadow:
+    inset 0 2px 4px rgba(255,255,255,.4),
+    inset 0 -3px 6px rgba(0,0,0,.25),
+    0 14px 25px rgba(0,0,0,.45);
+  border:2px solid #8a6a3b;
+}
+
+/* EFECTO APOYO SOBRE MADERA */
+.search::after{
+  content:"";
+  position:absolute;
+  left:12px;
+  right:12px;
+  bottom:-14px;
+  height:14px;
+  background:linear-gradient(
+    to bottom,
+    rgba(0,0,0,.45),
+    transparent
+  );
+  filter:blur(6px);
+  z-index:-1;
+}
+
+/* INPUT MÁS CLÁSICO */
+.search input{
+  width:100%;
+  padding:14px 16px;
+  font-size:15px;
+  border-radius:4px;
+  border:2px solid #6b4b1f;
+  background:#fff4da;
+  font-family:'Libre Baskerville', serif;
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,.25);
+}
+
+/* FOCUS ELEGANTE (NO CHILLÓN) */
+.search input:focus{
+  outline:none;
+  border-color:#8a6a3b;
+  box-shadow:
+    inset 0 2px 4px rgba(0,0,0,.25),
+    0 0 0 2px rgba(138,106,59,.25);
+}
+
 
 </style>
 </head>
