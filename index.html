@@ -484,6 +484,27 @@ button{
 
 window.scrollTo({ top:0, behavior:"smooth" });
 
+/* DORADO PERMANENTE (INCLUSO DESPUÉS DE BÚSQUEDA) */
+.card .info h3{
+  color:#c2a36b !important;
+}
+
+.card .precio{
+  color:#bfa04a !important;
+}
+
+.card button{
+  color:#f5e6c8 !important;
+}
+
+body.noche .card .info h3{
+  color:#e0c98b !important;
+}
+
+body.noche .card .precio{
+  color:#d4b866 !important;
+}
+
 </style>
 </head>
 
@@ -512,6 +533,22 @@ if(hour >= 19 || hour <= 6){
   document.body.classList.add("noche");
 }
 </script>
+
+<script>
+function reforzarEstilos(){
+  document.querySelectorAll(".card").forEach(card=>{
+    card.classList.add("libro-dorado");
+  });
+}
+
+// Llamar después de renderizar
+const _renderLibrosOriginal = renderLibros;
+renderLibros = function(){
+  _renderLibrosOriginal();
+  reforzarEstilos();
+};
+</script>
+
 
 <body>
 
