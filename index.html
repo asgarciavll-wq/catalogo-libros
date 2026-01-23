@@ -305,6 +305,74 @@ body::after{
   border-radius:0 0 8px 8px;
 }
 
+
+/* POLVO FLOTANDO */
+body::marker{ content:""; } /* hack compatibilidad */
+
+body::after{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background:
+    radial-gradient(circle, rgba(255,255,255,.15) 1px, transparent 2px),
+    radial-gradient(circle, rgba(255,255,255,.08) 1px, transparent 2px),
+    radial-gradient(circle, rgba(255,255,255,.12) 1px, transparent 2px);
+  background-size:120px 120px, 180px 180px, 260px 260px;
+  animation:polvo 60s linear infinite;
+  z-index:-1;
+}
+
+@keyframes polvo{
+  from{ background-position:0 0, 0 0, 0 0; }
+  to{ background-position:1200px -800px, -900px 700px, 600px -1000px; }
+}
+
+* PARPADEO DE LÁMPARA */
+.container{
+  animation:luz 9s infinite ease-in-out;
+}
+
+@keyframes luz{
+  0%,100%{ box-shadow:0 25px 60px rgba(0,0,0,.6); }
+  45%{ box-shadow:0 25px 60px rgba(0,0,0,.55); }
+  50%{ box-shadow:0 25px 60px rgba(0,0,0,.65); }
+  55%{ box-shadow:0 25px 60px rgba(0,0,0,.58); }
+}
+
+/* PERSPECTIVA CURVA */
+.grid{
+  perspective:1200px;
+}
+
+.card{
+  transform-origin:left center;
+}
+
+.card:hover{
+  transform:
+    rotateY(-10deg)
+    translateY(-8px)
+    scale(1.02);
+}
+
+/* CURVATURA VISUAL DEL ESTANTE */
+.grid::after{
+  content:"";
+  position:absolute;
+  left:-60px;
+  right:-60px;
+  bottom:-18px;
+  height:24px;
+  background:radial-gradient(
+    ellipse at center,
+    rgba(0,0,0,.45),
+    transparent 70%
+  );
+  filter:blur(6px);
+  z-index:-1;
+}
+
 </style>
 </head>
 
@@ -458,6 +526,26 @@ function mostrar(lista){
     cont.appendChild(card);
   });
 }
+</script>
+
+<audio id="woodSound" preload="auto">
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/10/audio_73c3e0cbe4.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+const wood = document.getElementById("woodSound");
+
+function crujido(){
+  wood.volume = 0.25;
+  wood.currentTime = 0;
+  wood.play();
+}
+
+setInterval(()=>{
+  if(Math.random() > 0.65){
+    crujido();
+  }
+}, 20000);
 </script>
 
 </body>
