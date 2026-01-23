@@ -425,6 +425,22 @@ body::after{
     linear-gradient(180deg,#7a5826,#3a260f);
 }
 
+/* MARCA DE AGUA LITERARIA */
+.container::before{
+  content:"Ex Libris · Mi lectura con nostalgia";
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%) rotate(-18deg);
+  font-family:'Cinzel', serif;
+  font-size:64px;
+  color:rgba(90,65,30,.06);
+  letter-spacing:6px;
+  pointer-events:none;
+  user-select:none;
+  white-space:nowrap;
+}
+
 
 </style>
 </head>
@@ -701,6 +717,14 @@ function renderPaginacion(total){
 function cambiarPagina(nueva){
   paginaActual = nueva;
   renderLibros();
+
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  });
+}
+</script>
+  
 }
 
 function renderLibros(){
@@ -736,28 +760,35 @@ function generarPortada(titulo){
   ctx.lineWidth = 8;
   ctx.strokeRect(20,20,360,560);
 
-  // Texto
+  // Marca de agua interna
+  ctx.save();
+  ctx.translate(200,360);
+  ctx.rotate(-0.4);
+  ctx.font = "22px Cinzel";
+  ctx.fillStyle = "rgba(255,255,255,0.12)";
+  ctx.textAlign = "center";
+  ctx.fillText("Mi lectura con nostalgia",0,0);
+  ctx.restore();
+
+  // Texto SOLO para portadas generadas
   ctx.fillStyle = "#f4e6c2";
   ctx.font = "bold 28px Libre Baskerville";
   ctx.textAlign = "center";
 
   const palabras = titulo.split(" ");
-  let lineas = [];
-  let actual = "";
+  let linea = "";
+  let y = 220;
 
   palabras.forEach(p=>{
-    if((actual + p).length > 18){
-      lineas.push(actual);
-      actual = p + " ";
+    if((linea + p).length > 18){
+      ctx.fillText(linea.trim(),200,y);
+      linea = p + " ";
+      y += 40;
     }else{
-      actual += p + " ";
+      linea += p + " ";
     }
   });
-  lineas.push(actual);
-
-  lineas.forEach((l,i)=>{
-    ctx.fillText(l.trim(),200,220 + i*40);
-  });
+  ctx.fillText(linea.trim(),200,y);
 
   return canvas.toDataURL("image/png");
 }
