@@ -491,12 +491,19 @@ fetch("catalogo_libros.json")
   .then(data=>{
     libros=data;
     mostrar(libros);
+	librosFiltrados = data;
+	renderLibros();
   });
+
+
 
 /* -------- BUSCADOR -------- */
 document.getElementById("buscar").addEventListener("input",e=>{
   const t=e.target.value.toLowerCase();
   mostrar(libros.filter(l=>l.titulo.toLowerCase().includes(t)));
+  paginaActual = 1;
+  librosFiltrados = filtrados;
+  renderLibros();
 });
 
 /* -------- UTILIDADES -------- */
@@ -665,6 +672,138 @@ document.querySelectorAll(".card img").forEach(img=>{
 });
 </script>
 
+<script>
+const LIBROS_POR_PAGINA = 30;
+let paginaActual = 1;
+let librosFiltrados = [];
+
+function renderPaginacion(total){
+  let paginacion = document.getElementById("paginacion");
+  if(!paginacion){
+    paginacion = document.createElement("div");
+    paginacion.id = "paginacion";
+    paginacion.style.textAlign = "center";
+    paginacion.style.margin = "40px 0";
+    document.querySelector(".container").appendChild(paginacion);
+  }
+
+  const totalPaginas = Math.ceil(total / LIBROS_POR_PAGINA);
+
+  paginacion.innerHTML = `
+    <button ${paginaActual===1?"disabled":""} onclick="cambiarPagina(${paginaActual-1})">⬅ Anterior</button>
+    <span style="margin:0 14px;font-family:'Cinzel',serif;">
+      Página ${paginaActual} de ${totalPaginas}
+    </span>
+    <button ${paginaActual===totalPaginas?"disabled":""} onclick="cambiarPagina(${paginaActual+1})">Siguiente ➡</button>
+  `;
+}
+
+function cambiarPagina(nueva){
+  paginaActual = nueva;
+  renderLibros();
+}
+
+function renderLibros(){
+  const grid = document.querySelector(".grid");
+  grid.innerHTML = "";
+
+  const inicio = (paginaActual-1) * LIBROS_POR_PAGINA;
+  const fin = inicio + LIBROS_POR_PAGINA;
+  const visibles = librosFiltrados.slice(inicio, fin);
+
+  visibles.forEach(libro => crearCard(libro));
+
+  renderPaginacion(librosFiltrados.length);
+}
+</script>
+
+<script>
+function generarPortada(titulo){
+  const canvas = document.createElement("canvas");
+  canvas.width = 400;
+  canvas.height = 600;
+  const ctx = canvas.getContext("2d");
+
+  // Fondo
+  const grad = ctx.createLinearGradient(0,0,0,600);
+  grad.addColorStop(0,"#6b4b1f");
+  grad.addColorStop(1,"#3a260f");
+  ctx.fillStyle = grad;
+  ctx.fillRect(0,0,400,600);
+
+  // Marco
+  ctx.strokeStyle = "#c2a36b";
+  ctx.lineWidth = 8;
+  ctx.strokeRect(20,20,360,560);
+
+  // Texto
+  ctx.fillStyle = "#f4e6c2";
+  ctx.font = "bold 28px Libre Baskerville";
+  ctx.textAlign = "center";
+
+  const palabras = titulo.split(" ");
+  let lineas = [];
+  let actual = "";
+
+  palabras.forEach(p=>{
+    if((actual + p).length > 18){
+      lineas.push(actual);
+      actual = p + " ";
+    }else{
+      actual += p + " ";
+    }
+  });
+  lineas.push(actual);
+
+  lineas.forEach((l,i)=>{
+    ctx.fillText(l.trim(),200,220 + i*40);
+  });
+
+  return canvas.toDataURL("image/png");
+}
+</script>
+
+<script>
+function crearCard(libro){
+  const grid = document.querySelector(".grid");
+
+  const card = document.createElement("div");
+  card.className = "card";
+
+  const img = document.createElement("img");
+  img.alt = libro.titulo;
+
+  img.onerror = () => {
+    const portada = generarPortada(libro.titulo);
+    img.src = portada;
+    localStorage.setItem("libro_img_"+libro.titulo, portada);
+  };
+
+  const cache = localStorage.getItem("libro_img_"+libro.imagen);
+  if(cache){
+    img.src = cache;
+  }else{
+    img.src = libro.imagen || "";
+  }
+
+  const info = document.createElement("div");
+  info.className = "info";
+  info.innerHTML = `
+    <h3>${libro.titulo}</h3>
+    <p class="descripcion">${libro.descripcion_comercial}</p>
+    <p class="precio">$${libro.precio}</p>
+    <p class="stock ${libro.stock==0?'sin-stock':''}">
+      ${libro.stock>0 ? `Stock: ${libro.stock}` : 'Sin stock'}
+    </p>
+  `;
+
+  const btn = document.createElement("button");
+  btn.textContent = "Consultar";
+
+  card.append(img, info, btn);
+  grid.appendChild(card);
+}
+</script>
 
 </body>
 </html>
