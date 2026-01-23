@@ -334,38 +334,6 @@ body::after{
   55%{ box-shadow:0 25px 60px rgba(0,0,0,.58); }
 }
 
-/* PERSPECTIVA CURVA */
-.grid{
-  perspective:1200px;
-}
-
-.card{
-  transform-origin:left center;
-}
-
-.card:hover{
-  transform:
-    rotateY(-10deg)
-    translateY(-8px)
-    scale(1.02);
-}
-
-/* CURVATURA VISUAL DEL ESTANTE */
-.grid::after{
-  content:"";
-  position:absolute;
-  left:-60px;
-  right:-60px;
-  bottom:-18px;
-  height:24px;
-  background:radial-gradient(
-    ellipse at center,
-    rgba(0,0,0,.45),
-    transparent 70%
-  );
-  filter:blur(6px);
-  z-index:-1;
-}
 
 </style>
 </head>
