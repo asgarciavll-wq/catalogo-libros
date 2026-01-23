@@ -505,6 +505,28 @@ body.noche .card .precio{
   color:#d4b866 !important;
 }
 
+/* DORADO ABSOLUTO – NO SE PIERDE AL ESCRIBIR */
+.card h3,
+.card .precio,
+.card button{
+  color:#c2a36b;
+}
+
+.card .precio{
+  color:#bfa04a;
+}
+
+.card button{
+  color:#f5e6c8;
+}
+
+/* FORZAR EN CUALQUIER ESTADO */
+.card h3,
+.card .precio,
+.card button{
+  transition:none !important;
+}
+
 </style>
 </head>
 
@@ -547,6 +569,25 @@ renderLibros = function(){
   _renderLibrosOriginal();
   reforzarEstilos();
 };
+</script>
+
+
+<script>
+const searchInput = document.querySelector(".search input");
+
+searchInput.addEventListener("input", () => {
+  requestAnimationFrame(() => {
+    document.querySelectorAll(".card h3").forEach(el=>{
+      el.style.color = "#c2a36b";
+    });
+    document.querySelectorAll(".card .precio").forEach(el=>{
+      el.style.color = "#bfa04a";
+    });
+    document.querySelectorAll(".card button").forEach(el=>{
+      el.style.color = "#f5e6c8";
+    });
+  });
+});
 </script>
 
 
