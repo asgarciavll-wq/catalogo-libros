@@ -616,6 +616,54 @@ document.querySelectorAll(".card img").forEach(img=>{
   };
 });
 </script>
+<script>
+const CACHE_PREFIX = "libro_img_";
+
+async function cacheImage(img, url){
+  try{
+    const cached = localStorage.getItem(CACHE_PREFIX + url);
+    if(cached){
+      img.src = cached;
+      return;
+    }
+
+    const response = await fetch(url);
+    const blob = await response.blob();
+    const reader = new FileReader();
+
+    reader.onloadend = () => {
+      const base64 = reader.result;
+      try{
+        localStorage.setItem(CACHE_PREFIX + url, base64);
+      }catch(e){
+        // Si se llena el storage, limpiamos cache antiguo
+        Object.keys(localStorage)
+          .filter(k=>k.startsWith(CACHE_PREFIX))
+          .slice(0,5)
+          .forEach(k=>localStorage.removeItem(k));
+      }
+      img.src = base64;
+    };
+
+    reader.readAsDataURL(blob);
+  }catch(e){
+    img.src = url;
+  }
+}
+
+document.querySelectorAll(".card img").forEach(img=>{
+  const original = img.src;
+
+  img.onerror = () => {
+    const titulo = img.closest(".card")
+      .querySelector("h3")?.innerText || "Libro";
+    const query = encodeURIComponent(titulo);
+    cacheImage(img, `https://covers.openlibrary.org/b/title/${query}-L.jpg`);
+  };
+
+  cacheImage(img, original);
+});
+</script>
 
 
 </body>
