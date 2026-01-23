@@ -400,6 +400,31 @@ body::after{
     0 0 0 2px rgba(138,106,59,.25);
 }
 
+/* CORRECCIÓN DEFINITIVA DEL BUSCADOR */
+.search{
+  box-sizing:border-box;
+}
+
+.search input{
+  box-sizing:border-box;
+  display:block;
+  width:100%;
+  max-width:100%;
+}
+
+/* PORTADA DE RESPALDO */
+.card img{
+  background:
+    linear-gradient(180deg,#7a5826,#3a260f);
+  position:relative;
+}
+
+/* SIMULACIÓN DE TÍTULO EN PORTADA */
+.card img[alt=""]{
+  background:
+    linear-gradient(180deg,#7a5826,#3a260f);
+}
+
 
 </style>
 </head>
@@ -576,6 +601,22 @@ setInterval(()=>{
   }
 }, 20000);
 </script>
+
+
+<script>
+document.querySelectorAll(".card img").forEach(img=>{
+  img.onerror = () => {
+    const titulo = img.closest(".card")
+      .querySelector("h3")
+      ?.innerText || "Libro";
+
+    const query = encodeURIComponent(titulo);
+
+    img.src = `https://covers.openlibrary.org/b/title/${query}-L.jpg`;
+  };
+});
+</script>
+
 
 </body>
 </html>
